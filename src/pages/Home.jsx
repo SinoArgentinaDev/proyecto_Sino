@@ -8,7 +8,7 @@ export const Home = () => {
       <Header />
       {/* Margen superior para evitar superposición */}
       <div>
-        <Portada />
+      <Portada />
       </div>
     </div>
   );

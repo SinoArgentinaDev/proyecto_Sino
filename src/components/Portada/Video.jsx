@@ -1,5 +1,6 @@
 import portadav from '../../assets/videos/portada.mp4';
 import { AiOutlineDoubleRight } from "react-icons/ai";
+import { Sidebar } from '../Siderbar/Sidebar';
 
 export const Video = () => {
   return (
@@ -27,10 +28,14 @@ export const Video = () => {
         </button>
 
         {/* Ícono rotado */}
-        <div className='mt-6'>
-        <AiOutlineDoubleRight className="text-[70px] transform rotate-90 " />
+        <div className="mt-6">
+          <AiOutlineDoubleRight className="text-[70px] transform rotate-90 " />
         </div>
-        
+      </div>
+
+      {/* Sidebar centrado a la izquierda */}
+      <div className="absolute inset-y-0 -left-2 -ml-6 flex items-center">
+        <Sidebar />
       </div>
     </div>
   );
