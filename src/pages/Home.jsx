@@ -1,3 +1,4 @@
+import { AboutUs } from '../components/AboutUS/AboutUs';
 import { Portada } from '../components/Portada/Portada';
 import { Header } from '../components/shared/Header/Header';
 
@@ -5,10 +6,13 @@ export const Home = () => {
   return (
     <div>
       {/* El Header tendrá posición fija */}
-      <Header />
+        <Header />
       {/* Margen superior para evitar superposición */}
       <div>
-      <Portada />
+        <Portada />
+      </div>
+      <div>
+        <AboutUs />
       </div>
     </div>
   );
