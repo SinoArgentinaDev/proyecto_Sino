@@ -4,7 +4,7 @@ import flagUsa from '../../../assets/img/flag-usa.svg';
 
 export const Header = () => {
   return (
-    <header className=' flex items-center justify-between mb-2 px-10'>
+    <header className=' flex items-center justify-between mb-2 px-8'>
       {/* Logo a la izquierda */}
       <img className='w-[200px]' src={sino_logo} alt="logo" />
 
