@@ -13,7 +13,6 @@ export const Video = () => {
         autoPlay
         loop
         muted
-        controls
       />
 
       {/* Contenedor para el texto y el botón */}
