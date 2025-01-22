@@ -9,12 +9,12 @@ export const Servicios = () => {
     return (
         <div className="container mx-auto p-6">
             {/* Encabezado centrado */}
-            <h1 className="text-4xl font-bold text-center tracking-widest text-[#051d40] mt-6 mb-8">
+            <h1 className="text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-6 mb-8">
                 SERVICIOS
             </h1>
 
             {/* Contenedor de las tarjetas */}
-            <div className="flex flex-wrap justify-center gap-20">
+            <div className="flex flex-wrap justify-center gap-24">
                 <Card
                     src={servicio2}
                     title="Logística Internacional"
