@@ -1,4 +1,5 @@
 import { AboutUs } from '../components/AboutUS/AboutUs';
+import { Banner } from '../components/Banner/Banner';
 import { Portada } from '../components/Portada/Portada';
 import { Header } from '../components/shared/Header/Header';
 
@@ -13,6 +14,9 @@ export const Home = () => {
       </div>
       <div>
         <AboutUs />
+      </div>
+      <div>
+        <Banner />
       </div>
     </div>
   );

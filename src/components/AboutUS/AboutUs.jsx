@@ -11,7 +11,6 @@ export const AboutUs = () => {
           autoPlay
           loop
           muted
-          controls
         ></video>
       </div>
 
