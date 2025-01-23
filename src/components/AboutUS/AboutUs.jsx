@@ -11,7 +11,7 @@ export const AboutUs = ({
   return (
     <div className="flex flex-col md:flex-row items-center md:items-start gap-12 p-14">
       {/* Video Section */}
-      <div className="relative w-full md:w-[40vw] h-[50vh] md:h-[82vh]">
+      <div className="relative w-full md:w-[40vw] h-[50vh] md:h-[8vh]">
         <video
           className="w-full h-full object-cover shadow-lg ml-4"
           src={videoSrc}

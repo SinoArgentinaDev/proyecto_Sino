@@ -2,29 +2,34 @@ import React from 'react';
 
 export const HorizontalCard = ({ url, title, texts }) => {
   return (
-    <a
-      href="#"
-      className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-    >
-      <video
-        className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-        src={url}
-        alt={title}
-      />
-      <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+    <div className="flex flex-col md:flex-row items-center md:items-start gap-20 p-16 bg-white dark:bg-gray-800">
+      {/* Text Section */}
+      <div className="flex flex-col justify-center md:w-1/2 space-y-6 text-gray-800">
+        <h1 className="text-4xl font-extrabold text-center tracking-widest text-[#051d40] mt-3">
           {title}
-        </h5>
-        {/* Renderizado dinámico de textos */}
-        {texts.map((text, index) => (
-          <p
-            key={index}
-            className="mb-3 font-normal text-gray-700 dark:text-gray-400"
-          >
-            {text}
-          </p>
-        ))}
+        </h1>
+
+        <div className="space-y-4 text-justify leading-relaxed text-xl">
+          {/* Renderizado dinámico de textos */}
+          {texts.map((text, index) => (
+            <p key={index}>{text}</p>
+          ))}
+        </div>
       </div>
-    </a>
+
+      {/* Image Section */}
+      <div
+        className="relative w-full md:w-[42vw] h-[40vh] md:h-[70vh]"
+        style={{
+          clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)',
+        }}
+      >
+        <img
+          className="w-full h-full object-cover shadow-lg"
+          src={url}
+          alt={title}
+        />
+      </div>
+    </div>
   );
 };
