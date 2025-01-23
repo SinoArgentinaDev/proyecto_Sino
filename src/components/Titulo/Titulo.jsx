@@ -6,7 +6,7 @@ export const Titulo = ({title, title2}) => {
       <h1 
         className='text-3xl sm:text-4xl lg:text-5xl font-medium text-center tracking-wide text-[#051d40] leading-snug sm:leading-tight'>
        {title}<br />
-        <span className='block'>{title2}</span>
+        <span className='block mt-2'>{title2}</span>
       </h1>
     </div>
   );
