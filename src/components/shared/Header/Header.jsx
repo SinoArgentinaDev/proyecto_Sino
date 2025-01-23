@@ -4,7 +4,7 @@ import flagUsa from '../../../assets/img/flag-usa.svg';
 
 export const Header = () => {
   return (
-    <header className="flex items-center justify-between px-6 py-2 bg-white shadow-md md:px-10">
+    <header className="flex items-center justify-between px-6 py-2 bg-white shadow-md md:px-12">
       {/* Logo a la izquierda */}
       <img
         className="w-24 md:w-28"
@@ -13,7 +13,7 @@ export const Header = () => {
       />
 
       {/* Contenedor para agrupar Navbar y bandera a la derecha */}
-      <div className="flex items-center space-x-6 md:space-x-8">
+      <div className="flex items-center space-x-6 md:space-x-20">
         <Navbar
           texto1="Home"
           texto2="Sobre nosotros"

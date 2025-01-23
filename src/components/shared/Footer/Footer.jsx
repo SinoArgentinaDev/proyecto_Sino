@@ -8,10 +8,10 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
         {/* Logo y descripción */}
         <div className="flex flex-col items-center md:items-start">
-          <img src={sino_logo} alt="logo" className="w-36 mb-4" />
+          <img src={sino_logo} alt="logo" className="w-24 mb-4" />
           <p className="text-base text-white font-semibold text-center tracking-wide 
                md:text-left">
-            Lorem ipsum dolor sit consectetur adipiscing elit.
+            Conectando Pymes Argentinas con el Mercado Chino
           </p>
         </div>
 
@@ -24,13 +24,13 @@ export const Footer = () => {
         {/* Links - Visítanos */}
         <Links
           titulo="Visítanos"
-          links={['Calle 123 - 321', 'Ciudad del mundo', 'Argentina']}
+          links={['San Martin 523', 'Ciudad de Buenos Aires', 'Argentina']}
         />
 
         {/* Links - Legal */}
         <Links
           titulo="Legal"
-          links={['notificaciones@legal.com', '1800 000 123']}
+          links={['info@sinoargentina.com', '1800 000 123']}
         />
       </div>
 

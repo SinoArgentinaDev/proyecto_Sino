@@ -19,7 +19,7 @@ export const Video = () => {
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white">
         {/* Etiqueta H1 centrada */}
         <h1 className="text-[70px] font-bold tracking-wide mt-24 text-center">
-          WHAT IS LOREM IPSUM?
+          SINO-ARGENTINA GROUP 
         </h1>
 
         {/* Botón con más separación */}
