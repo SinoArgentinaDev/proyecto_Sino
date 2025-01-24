@@ -29,7 +29,7 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
           </a>
         </li>
         <li>
-          <a href="/contacto" className="hover:text-gray-700 transition-colors">
+          <a href="#contacto" className="hover:text-gray-700 transition-colors">
             {texto4}
           </a>
         </li>
@@ -59,7 +59,7 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
           <ul className="flex flex-col items-center space-y-6 text-xl text-gray-700">
             <li>
               <a
-                href="#"
+                href="/"
                 className="px-4 py-2 rounded-md hover:bg-gray-100 hover:text-gray-900 transition-all"
                 onClick={toggleMenu}
               >
@@ -68,7 +68,7 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
             </li>
             <li>
               <a
-                href="#"
+                href="/nosotros"
                 className="px-4 py-2 rounded-md hover:bg-gray-100 hover:text-gray-900 transition-all"
                 onClick={toggleMenu}
               >
@@ -77,7 +77,7 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
             </li>
             <li>
               <a
-                href="#"
+                href="/servicios"
                 className="px-4 py-2 rounded-md hover:bg-gray-100 hover:text-gray-900 transition-all"
                 onClick={toggleMenu}
               >
@@ -86,7 +86,7 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
             </li>
             <li>
               <a
-                href="#"
+                href="#contacto"
                 className="px-4 py-2 rounded-md hover:bg-gray-100 hover:text-gray-900 transition-all"
                 onClick={toggleMenu}
               >

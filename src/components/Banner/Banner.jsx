@@ -9,14 +9,16 @@ export const Banner = () => {
                     CONOCE LA GUÍA QUE HEMOS DISEÑADO PARA QUE EXPORTES DESDE CHINA FÁCIL Y SEGURO
                 </h1>
                 <div className="mt-4 md:mt-6 flex justify-center">
-                    <button className="bg-black text-white font-medium px-6 py-2 w-[250px] rounded-md hover:bg-blue-600 transition border-2 border-blue-600">
-                        Saber más
-                    </button>
+                    <a href="/servicios">
+                        <button className="bg-black text-white font-medium px-6 py-2 w-[250px] rounded-md hover:bg-blue-600 transition border-2 border-blue-600">
+                            Saber más
+                        </button>
+                    </a>
                 </div>
             </div>
-            <img 
-                src={banner_img} 
-                alt="banner" 
+            <img
+                src={banner_img}
+                alt="banner"
                 className='hidden md:block absolute right-0 object-contain clip-banner-shape'
                 style={{ height: '200px' }}
             />

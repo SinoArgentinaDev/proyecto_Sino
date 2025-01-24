@@ -1,6 +1,7 @@
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import portadav from '../../assets/videos/portada.mp4';
 import { Sidebar } from '../Siderbar/Sidebar';
+import { Link } from "react-router-dom";
 
 export const Video = () => {
   return (
@@ -18,12 +19,12 @@ export const Video = () => {
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white">
         {/* Etiqueta H1 centrada */}
         <h1 className="text-[70px] font-bold tracking-wide mt-24 text-center">
-          SINO-ARGENTINA GROUP 
+          SINO-ARGENTINA GROUP
         </h1>
 
         {/* Botón con más separación */}
         <button className="bg-[#051d40] text-white font-bold tracking-widest px-6 py-2 rounded-full border-4 border-white hover:bg-blue-600 transition mt-8">
-          SERVICIOS
+          <Link to="/servicios">SERVICIOS</Link>
         </button>
 
         {/* Ícono rotado */}

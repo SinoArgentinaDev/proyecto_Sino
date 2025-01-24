@@ -26,9 +26,9 @@ export const Contacto = () => {
 
     return (
 
-        <>
+        <div id='contacto'>
             <h2 className="text-4xl font-extrabold text-center tracking-wider	 text-[#051d40] mt-10 mb-6">CONTÁCTENOS </h2>
-            <div className="max-w-5xl mx-auto p-6 bg-[#051d40] shadow-md">
+            <div  className="max-w-5xl mx-auto p-6 bg-[#051d40] shadow-md">
                 <form onSubmit={handleSubmit} className="space-y-6">
                     {/* Fila 1: Nombre Completo, Razón Social y CUIT/CUIL */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
@@ -130,6 +130,6 @@ export const Contacto = () => {
                     </div>
                 </form>
             </div>
-        </>
+        </div>
     );
 };
