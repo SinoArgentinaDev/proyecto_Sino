@@ -6,7 +6,7 @@ import { Footer } from '../components/shared/Footer/Footer'
 import { Titulo } from '../components/Titulo/Titulo'
 import { AboutUsTwo } from '../components/AboutUsTwo/AboutUsTwo'
 import { Contacto } from '../components/Contacto/Contacto'
-import servicios from '../assets/videos/SobreNosotros.mp4'
+import servicios from '../assets/videos/servicios.mp4'
 import { AllServices } from '../components/AllServices/AllServices';
 import { RoadMap } from '../components/RoadMap/RoadMap';
 

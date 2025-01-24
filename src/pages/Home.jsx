@@ -6,10 +6,15 @@ import { Servicios } from '../components/Servicios/Servicios';
 import { Footer } from '../components/shared/Footer/Footer';
 import { Header } from '../components/shared/Header/Header';
 import videoUs from '../assets/videos/SobreNosotros.mp4'
+import { SocialIcon } from 'react-social-icons';
+
 export const Home = () => {
   return (
     <div>
       <Header />
+      <div className="fixed bottom-4 right-4 z-50">
+        <SocialIcon url="https://web.whatsapp.com/" />
+      </div>
       <Portada />
       <AboutUs
         videoSrc={videoUs}

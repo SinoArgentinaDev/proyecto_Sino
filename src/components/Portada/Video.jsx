@@ -1,5 +1,4 @@
 import { AiOutlineDoubleRight } from "react-icons/ai";
-import { SocialIcon } from 'react-social-icons';
 import portadav from '../../assets/videos/portada.mp4';
 import { Sidebar } from '../Siderbar/Sidebar';
 
@@ -39,9 +38,7 @@ export const Video = () => {
       </div>
 
       {/* Social Icon de WhatsApp en la esquina inferior derecha */}
-      <div className="absolute bottom-4 right-4">
-        <SocialIcon url="https://web.whatsapp.com/"  />
-      </div>
+
     </div>
   );
 };

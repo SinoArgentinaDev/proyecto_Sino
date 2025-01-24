@@ -20,7 +20,7 @@ export const Card = ({ src, alt, title, text }) => {
             {/* Ver más botón fijo */}
             <div className="absolute bottom-2 right-4">
                 <a
-                    href="#"
+                    href="/servicios"
                     className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#051d40] focus:ring-4 focus:outline-none"
                 >
                     Ver más
