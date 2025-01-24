@@ -1,6 +1,7 @@
 import { Navbar } from '../../Navbar/Navbar';
 import sino_logo from '../../../assets/img/sinoLogo.png';
 import flagUsa from '../../../assets/img/flag-usa.svg';
+import flagSpain from '../../../assets/img/flagspain.svg'
 
 export const Header = () => {
   return (
@@ -22,7 +23,7 @@ export const Header = () => {
         />
         <img
           className="w-8 md:w-10"
-          src={flagUsa}
+          src={flagSpain}
           alt="Bandera de EE.UU."
         />
       </div>
