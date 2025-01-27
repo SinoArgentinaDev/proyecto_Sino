@@ -47,5 +47,15 @@
         "email": "correo@ejemplo.com",
         "tel":"Cód. de área  + número de teléfono",
         "message":"Por favor, ingrese su mensaje aquí"
+    },
+    "footer":{
+        "title":"Conectando Pymes Argentinas con el Mercado Chino",
+        "section_title":"Explora",
+        "section_links": ["Home", "Sobre nosotros", "Servicios", "Contacto"],
+        "section_title2":"Visítanos",
+        "section_links2": ["San Martin 523", "Ciudad de Buenos Aires", "Argentina"],
+        "section_title3":"Legal",
+        "section_links3": ["info@sinoargentina.com", "1800 000 123"],
+        "copyright":"2025 Sino Argentino Group. Todos los derechos reservados."
     }
 }
