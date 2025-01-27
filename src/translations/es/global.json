@@ -1,61 +1,103 @@
 {
-    "header":{
-        "navbar-link1": "Home",
-        "navbar-link2": "Sobre nosotros",
-        "navbar-link3": "Servicios",
-        "navbar-link4": "Contacto"
-    },
-    "cover":{
-        "main-title": "SINO-ARGENTINA GROUP",
-        "button_text": "SERVICIOS"
-    },
-    "aboutUs":{
-        "title": "SOBRE NOSOTROS",
-        "text_1": "Somos Sino Argentina Group, una empresa de comercio exterior con oficinas en la ciudad de Guangzhou, China, y en Buenos Aires, Argentina. Nuestra misión es asistir a las pymes argentinas para integrarse en el mercado Chino.",
-        "text_2": "Ofrecemos un servicio integral de comercio exterior con el mercado Chino. Nos encargamos de facilitar todas las gestiones de importación y exportación tanto en China como en Argentina, con profesionales bilingües radicados en China, con excelente dominio del idioma chino y español.",
-        "text_3": "En el caso de que estés planificando abrir el mercado Chino para tus exportaciones, nos encargamos de efectuar la investigación de mercado, identificando posibles clientes; facilitamos la negociación de venta y constatamos la veracidad y seriedad del importador chino.",
-        "button_text": "Saber más"
-    },
-    "banner":{
-        "title": "CONOCE LA GUÍA QUE HEMOS DISEÑADO PARA QUE EXPORTES DESDE CHINA FÁCIL Y SEGURO",
-        "button_text":"Saber más"
-    },
-    "services_lading":{
-        "title":"SERVICIOS",
-        "card_title_1": "Logística Internacional",
-        "card_text_1": "Ofrecemos un servicio de logística integral, abarcando desde la consolidación de carga y el despacho aduanero en origen, hasta la entrega final en destino",
-        "card_title_2": "Análisis, Negociación y Compras con Proveedores en China",
-        "card_text_2": "Nuestro equipo de expertos realiza un análisis exhaustivo del mercado, identificando a los fabricantes que mejor se ajustan a tus necesidades",
-        "card_title_3": "Apertura de Mercados en China",
-        "card_text_3": "Realizamos estudios de mercado personalizados, identificamos potenciales clientes y distribuidores, y te brindamos el asesoramiento necesario para desarrollar una estrategia comercial exitosa.",
-        "button_text": "Ver más"
-    },
-    "contact":{
-        "title": "CONTÁCTENOS",
-        "fullName": "Nombre Completo",
-        "company_name": "Razón Social",
-        "id": "CUIT/CUIL",
-        "email": "Correo Electrónico",
-        "tel":"Teléfono",
-        "message":"Mensaje",
-        "button_text": "Enviar"
-    },
-    "contact_placerholder":{
-        "fullName": "Nombre y Apellido",
-        "company_name": "Nombre de la empresa",
-        "id": "Números sin espacios ni guiones",
-        "email": "correo@ejemplo.com",
-        "tel":"Cód. de área  + número de teléfono",
-        "message":"Por favor, ingrese su mensaje aquí"
-    },
-    "footer":{
-        "title":"Conectando Pymes Argentinas con el Mercado Chino",
-        "section_title":"Explora",
-        "section_links": ["Home", "Sobre nosotros", "Servicios", "Contacto"],
-        "section_title2":"Visítanos",
-        "section_links2": ["San Martin 523", "Ciudad de Buenos Aires", "Argentina"],
-        "section_title3":"Legal",
-        "section_links3": ["info@sinoargentina.com", "1800 000 123"],
-        "copyright":"2025 Sino Argentino Group. Todos los derechos reservados."
-    }
+  "header": {
+    "navbar-link1": "Home",
+    "navbar-link2": "Sobre nosotros",
+    "navbar-link3": "Servicios",
+    "navbar-link4": "Contacto"
+  },
+  "cover": {
+    "main-title": "SINO-ARGENTINA GROUP",
+    "button_text": "SERVICIOS"
+  },
+  "aboutUs": {
+    "title": "SOBRE NOSOTROS",
+    "text_1": "Somos Sino Argentina Group, una empresa de comercio exterior con oficinas en la ciudad de Guangzhou, China, y en Buenos Aires, Argentina. Nuestra misión es asistir a las pymes argentinas para integrarse en el mercado Chino.",
+    "text_2": "Ofrecemos un servicio integral de comercio exterior con el mercado Chino. Nos encargamos de facilitar todas las gestiones de importación y exportación tanto en China como en Argentina, con profesionales bilingües radicados en China, con excelente dominio del idioma chino y español.",
+    "text_3": "En el caso de que estés planificando abrir el mercado Chino para tus exportaciones, nos encargamos de efectuar la investigación de mercado, identificando posibles clientes; facilitamos la negociación de venta y constatamos la veracidad y seriedad del importador chino.",
+    "button_text": "Saber más"
+  },
+  "banner": {
+    "title": "CONOCE LA GUÍA QUE HEMOS DISEÑADO PARA QUE EXPORTES DESDE CHINA FÁCIL Y SEGURO",
+    "button_text": "Saber más"
+  },
+  "services_lading": {
+    "title": "SERVICIOS",
+    "card_title_1": "Logística Internacional",
+    "card_text_1": "Ofrecemos un servicio de logística integral, abarcando desde la consolidación de carga y el despacho aduanero en origen, hasta la entrega final en destino",
+    "card_title_2": "Análisis, Negociación y Compras con Proveedores en China",
+    "card_text_2": "Nuestro equipo de expertos realiza un análisis exhaustivo del mercado, identificando a los fabricantes que mejor se ajustan a tus necesidades",
+    "card_title_3": "Apertura de Mercados en China",
+    "card_text_3": "Realizamos estudios de mercado personalizados, identificamos potenciales clientes y distribuidores, y te brindamos el asesoramiento necesario para desarrollar una estrategia comercial exitosa.",
+    "button_text": "Ver más"
+  },
+  "contact": {
+    "title": "CONTÁCTENOS",
+    "fullName": "Nombre Completo",
+    "company_name": "Razón Social",
+    "id": "CUIT/CUIL",
+    "email": "Correo Electrónico",
+    "tel": "Teléfono",
+    "message": "Mensaje",
+    "button_text": "Enviar"
+  },
+  "contact_placerholder": {
+    "fullName": "Nombre y Apellido",
+    "company_name": "Nombre de la empresa",
+    "id": "Números sin espacios ni guiones",
+    "email": "correo@ejemplo.com",
+    "tel": "Cód. de área  + número de teléfono",
+    "message": "Por favor, ingrese su mensaje aquí"
+  },
+  "banner_aboutUs": {
+    "title": "SOBRE NOSOTROS",
+    "route": "Home / Sobre Nosotros"
+  },
+  "page_About": {
+    "title": "Sino Argentina Group: Conectando Pymes Argentinas",
+    "title_2": "con el Mercado Chino"
+  },
+  "about_card_two": {
+    "title": "Confianza y Éxito en tus operaciones con el Mercado Chino sin barreras ni riesgos",
+    "text_1": "Somos Sino Argentina Group, una empresa de comercio exterior con oficinas en la ciudad de Guangzhou, China, y en Buenos Aires, Argentina. Nuestra misión es asistir a las pymes argentinas para integrarse en el mercado Chino.",
+    "text_2": "Ofrecemos un servicio integral de comercio exterior con el mercado Chino. Nos encargamos de facilitar todas las gestiones de importación y exportación tanto en China como en Argentina, con profesionales bilingües radicados en China, con excelente dominio del idioma chino y español.",
+    "text_3": "Conocemos la complejidad de encontrar el proveedor adecuado en China para poder importar sin caer en fraudes o estafas; así como la incertidumbre de saber si el comprador de tus productos en China es serio y cumplirá con las condiciones de compra para tus exportaciones hacia China."
+  },
+  "about_card": {
+    "text_1": "Estas dificultades que se presentan tanto en la importación desde China como en la venta de productos argentinos hacia allí, requieren de nuestra gestión para llevar a cabo con éxito las negociaciones y gestiones de compra/venta.",
+    "text_2": "Sino Argentina Group se encarga de la búsqueda de proveedores profesionales, ofreciendo distintas alternativas de proveedores de acuerdo a tus requerimientos y negociando los mejores precios y condiciones de compra. Una vez cerrado el contrato de compra, nos encargamos de efectuar toda la logística para que tus productos lleguen a Argentina correctamente.",
+    "text_3": "En el caso de que estés planificando abrir el mercado Chino para tus exportaciones, nos encargamos de efectuar la investigación de mercado, identificando posibles clientes; facilitamos la negociación de venta y constatamos la veracidad y seriedad del importador chino. Una vez cerrada la venta, también nos encargamos de toda la logística desde cualquier localidad en Argentina hasta el destino final en China."
+  },
+  "HorizontalCard": {
+    "title": "MISIÓN",
+    "text": [
+      "Nuestra misión es simplificar y asegurar el proceso de comercio exterior entre Argentina y China. A través de nuestros servicios integrales, buscamos fortalecer a las pymes argentinas, brindándoles las herramientas y el conocimiento necesarios para llevar a cabo con éxito todas las gestiones de comercio exterior en el mercado chino.",
+      "Con años de experiencia en el mercado chino, conociendo plenamente su lengua, su cultura y las particularidades de cada negociación, sabemos mitigar los riesgos y garantizamos la satisfacción de nuestros clientes en cada etapa de la operación.",
+      "Nos comprometemos a ser socios estratégicos de nuestros clientes, ofreciendo soluciones adaptadas a sus necesidades específicas y ayudándolos a alcanzar sus objetivos comerciales de manera efectiva y segura."
+    ]
+  },
+  "InvertCard": {
+    "title": "VISIÓN",
+    "text": [
+      "Sino Argentina Group aspira a ser el puente comercial definitivo entre Argentina y China, facilitando el acceso de las empresas argentinas al vasto mercado chino y optimizando sus operaciones comerciales.",
+      "Nos visualizamos como líderes en la gestión comercial con el mercado chino, siendo reconocidos por el dominio de la lengua y cultura china de nuestros profesionales situados en China, tanto de nacionalidad argentina como china, brindando confiabilidad y compromiso en cada transacción; y contribuyendo al fortalecimiento de las PYMES argentinas en el mercado chino.",
+      "Creemos en un futuro donde el comercio bilateral entre Argentina y China se desarrolle con transparencia, eficiencia y confianza mutua, marcando un impacto positivo en las economías de ambos países."
+    ]
+  },
+  "whyUs":{
+    "title": "POR QUÉ ELEGIRNOS",
+    "text_card_1":"En Sino Argentina Group, contamos con oficinas estratégicamente ubicadas en Guangzhou, China, y Buenos Aires, Argentina. Esta dualidad nos permite brindar un servicio integral que comprende cada detalle de las gestiones de importación y exportación, asegurando una conexión fluida y efectiva entre ambos mercados.",
+    "text_card_2":"Nuestro equipo de profesionales bilingües, radicados en China, posee un dominio avanzado de los idiomas chino y español, lo que garantiza una comunicación clara y sin barreras culturales o idiomáticas. Esto nos posiciona como un socio confiable para tus negocios internacionales.",
+    "text_card_3":"Entendemos los desafíos de encontrar proveedores confiables en China y garantizar compradores serios para tus exportaciones. Nos especializamos en evitar fraudes y estafas, proporcionando soluciones personalizadas que aseguran el éxito de tus operaciones comerciales.",
+    "text_card_4":"Desde la búsqueda de proveedores y clientes hasta la logística completa, nos encargamos de cada paso del proceso. Ofrecemos alternativas adaptadas a tus necesidades, negociamos las mejores condiciones y supervisamos cada detalle para que tus productos lleguen a su destino sin inconvenientes."
+  },
+  "footer": {
+    "title": "Conectando Pymes Argentinas con el Mercado Chino",
+    "section_title": "Explora",
+    "section_links": ["Home", "Sobre nosotros", "Servicios", "Contacto"],
+    "section_title2": "Visítanos",
+    "section_links2": ["San Martin 523", "Ciudad de Buenos Aires", "Argentina"],
+    "section_title3": "Legal",
+    "section_links3": ["info@sinoargentina.com", "1800 000 123"],
+    "copyright": "2025 Sino Argentino Group. Todos los derechos reservados."
+  }
 }
