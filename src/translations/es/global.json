@@ -83,12 +83,56 @@
       "Creemos en un futuro donde el comercio bilateral entre Argentina y China se desarrolle con transparencia, eficiencia y confianza mutua, marcando un impacto positivo en las economías de ambos países."
     ]
   },
-  "whyUs":{
+  "whyUs": {
     "title": "POR QUÉ ELEGIRNOS",
-    "text_card_1":"En Sino Argentina Group, contamos con oficinas estratégicamente ubicadas en Guangzhou, China, y Buenos Aires, Argentina. Esta dualidad nos permite brindar un servicio integral que comprende cada detalle de las gestiones de importación y exportación, asegurando una conexión fluida y efectiva entre ambos mercados.",
-    "text_card_2":"Nuestro equipo de profesionales bilingües, radicados en China, posee un dominio avanzado de los idiomas chino y español, lo que garantiza una comunicación clara y sin barreras culturales o idiomáticas. Esto nos posiciona como un socio confiable para tus negocios internacionales.",
-    "text_card_3":"Entendemos los desafíos de encontrar proveedores confiables en China y garantizar compradores serios para tus exportaciones. Nos especializamos en evitar fraudes y estafas, proporcionando soluciones personalizadas que aseguran el éxito de tus operaciones comerciales.",
-    "text_card_4":"Desde la búsqueda de proveedores y clientes hasta la logística completa, nos encargamos de cada paso del proceso. Ofrecemos alternativas adaptadas a tus necesidades, negociamos las mejores condiciones y supervisamos cada detalle para que tus productos lleguen a su destino sin inconvenientes."
+    "text_card_1": "En Sino Argentina Group, contamos con oficinas estratégicamente ubicadas en Guangzhou, China, y Buenos Aires, Argentina. Esta dualidad nos permite brindar un servicio integral que comprende cada detalle de las gestiones de importación y exportación, asegurando una conexión fluida y efectiva entre ambos mercados.",
+    "text_card_2": "Nuestro equipo de profesionales bilingües, radicados en China, posee un dominio avanzado de los idiomas chino y español, lo que garantiza una comunicación clara y sin barreras culturales o idiomáticas. Esto nos posiciona como un socio confiable para tus negocios internacionales.",
+    "text_card_3": "Entendemos los desafíos de encontrar proveedores confiables en China y garantizar compradores serios para tus exportaciones. Nos especializamos en evitar fraudes y estafas, proporcionando soluciones personalizadas que aseguran el éxito de tus operaciones comerciales.",
+    "text_card_4": "Desde la búsqueda de proveedores y clientes hasta la logística completa, nos encargamos de cada paso del proceso. Ofrecemos alternativas adaptadas a tus necesidades, negociamos las mejores condiciones y supervisamos cada detalle para que tus productos lleguen a su destino sin inconvenientes."
+  },
+  "banner_service": {
+    "title": "SERVICIOS",
+    "route": "Home / Servicios"
+  },
+  "service_page": {
+    "title": "Sino Argentina Group: Asistencia Integral en Comercio",
+    "title_2": "Exterior: Simplificamos el Camino al Éxito"
+  },
+  "services_cardTwo": {
+    "title": "Confianza y Éxito en tus operaciones con el Mercado Chino sin barreras ni riesgos",
+    "text_1": "Conocemos la complejidad de encontrar el proveedor adecuado en China para poder importar sin caer en fraudes o estafas; así como la incertidumbre de saber si el comprador de tus productos en China es serio y cumplirá con las condiciones de compra para tus exportaciones hacia China.",
+    "text_2": "Estas dificultades que se presentan tanto en la importación desde China como en la venta de productos argentinos hacia allí, requieren de nuestra gestión para llevar a cabo con éxito las negociaciones y gestiones de compra/venta.",
+    "text_3": "Nuestra experiencia y conocimiento del mercado asiático nos permiten acompañarte en cada paso, desde la selección del proveedor o cliente ideal hasta la logística final, asegurando que tus operaciones comerciales se lleven a cabo de manera efectiva, segura y con éxito."
+  },
+  "allServices": {
+    "title": "¿QUÉ TENEMOS PARA OFRECERTE?",
+    "card_title_1": "Análisis, Negociación y Compras con Proveedores en China",
+    "card_text_1": "Sino Argentina Group es tu aliado estratégico en la búsqueda y selección de proveedores confiables en China., ajustándonos a tu presupuesto. Negociamos en tu nombre las mejores condiciones comerciales, garantizando la calidad de los productos y la entrega puntual.",
+    "card_title_2": "Logística Internacional",
+    "card_text_2": "Ofrecemos un servicio de logística integral, abarcando desde la consolidación de carga y el despacho aduanero en origen, hasta la entrega final en destino. Nuestro conocimiento del mercado y nuestra amplia red de agentes nos permiten optimizar las rutas y reducir los costos de transporte, asegurando la integridad de tus mercancías en todo momento.",
+    "card_title_3": "Apertura de Mercados en China",
+    "card_text_3": "¿Deseas expandir tu negocio al mercado chino? Sino Argentina Group te acompaña en cada paso del proceso. Realizamos estudios de mercado personalizados, identificamos potenciales clientes y distribuidores, y te brindamos el asesoramiento necesario para desarrollar una estrategia comercial exitosa.",
+    "card_title_4": "Viajes de Negocios a China",
+    "card_text_4": "Organizamos viajes de negocios a la medida de tus necesidades, facilitando la agenda de reuniones con proveedores, clientes y potenciales socios comerciales. Nuestro equipo te acompañará durante toda tu estancia, brindándote asistencia en la traducción, la logística y la gestión de visas."
+  },
+  "RoadMap":{
+    "title":"PASO A PASO EN EL ANÁLISIS, NEGOCIACIÓN Y COMPRAS CON PROVEEDORES EN CHINA"
+  },
+  "mapCard":{
+    "title_1":"1. Recopilación de información:",
+    "text_1":"Se realiza una reunión en donde el cliente proporciona detalles sobre el producto a buscar (especificaciones técnicas, cantidad, calidad, etc.). Luego se definen los requisitos de certificación y cumplimiento normativo. Finalmente, se establece un presupuesto estimado.",
+    "title_2":"2. Búsqueda y selección de proveedores:",
+    "text_2":"Se realiza una búsqueda exhaustiva en bases de datos especializadas y plataformas de comercio electrónico. Se contactan y evalúan múltiples proveedores en función de su reputación, capacidad de producción y precios. Se solicita información detallada sobre los productos, muestras y catálogos.",
+    "title_3":"3. Visita a fábricas:",
+    "text_3":"Si es necesario, se organizan visitas a las fábricas para verificar las condiciones de producción y la calidad de los productos.",
+    "title_4":"4. Negociación de términos comerciales:",
+    "text_4":"Se negocian los precios, los plazos de entrega, las condiciones de pago, las garantías y los términos del contrato. Se redacta y revisa el contrato en conjunto con el cliente.",
+    "title_5":"5. Seguimiento de la producción:",
+    "text_5":"Se realiza un seguimiento constante del proceso de producción, asegurando que se cumplan los estándares de calidad y los plazos acordados.",
+    "title_6":"6. Inspección de calidad:",
+    "text_6":"Se contrata a una empresa de inspección independiente para verificar la calidad de los productos antes del envío.",
+    "title_7":"7. Organización del envío:",
+    "text_7":"Se coordinan los detalles del envío, incluyendo el embalaje, el transporte y el despacho aduanero en origen. Luego, se efectúa el envío internacional efectuando el seguimiento de toda la Logística Internacional."
   },
   "footer": {
     "title": "Conectando Pymes Argentinas con el Mercado Chino",

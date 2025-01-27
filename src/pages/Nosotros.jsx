@@ -16,8 +16,8 @@ import { WhyUs } from '../components/WhyUs/WhyUs';
 
 
 export const Nosotros = () => {
-    const [t, i18n] = useTranslation("global")
-  
+  const [t, i18n] = useTranslation("global")
+
   return (
     <div>
       <Header />

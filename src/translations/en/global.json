@@ -86,6 +86,50 @@
     "text_card_3":"We understand the challenges of finding reliable suppliers in China and securing serious buyers for your exports. We specialize in preventing fraud and scams, providing customized solutions that ensure the success of your business operations.",
     "text_card_4":"From finding suppliers and customers to complete logistics, we take care of every step of the process. We offer alternatives tailored to your needs, negotiate the best conditions and supervise every detail so that your products arrive at their destination without problems."
   },
+  "banner_service":{
+    "title": "SERVICES",
+    "route": "Home / Services"
+  },
+  "service_page":{
+    "title":"Sino Argentina Group: Comprehensive Assistance in ",
+    "title_2": "Foreign Trade: We simplify the path to success"
+  },
+  "services_cardTwo":{
+    "title":"Confidence and Success in your operations with the Chinese Market without barriers or risks",
+    "text_1":"We know the complexity of finding the right supplier in China to be able to import without falling into fraud or scams; as well as the uncertainty of knowing if the buyer of your products in China is serious and will comply with the purchase conditions for your exports to China.",
+    "text_2":"These difficulties, which arise both in importing from China and in the sale of Argentine products there, require our management to successfully carry out the purchase/sale negotiations and procedures.",
+    "text_3":"Our experience and knowledge of the Asian market allow us to accompany you at every step, from the selection of the ideal supplier or client to the final logistics, ensuring that your business operations are carried out effectively, safely and successfully."
+  },
+  "allServices": {
+    "title": "WHAT DO WE HAVE TO OFFER YOU?",
+    "card_title_1": "Analysis, Negotiation and Purchasing with Suppliers in China",
+    "card_text_1": "Sino Argentina Group is your strategic ally in the search and selection of reliable suppliers in China, adjusting to your budget. We negotiate the best commercial conditions on your behalf, guaranteeing product quality and punctual delivery.",
+    "card_title_2": "International Logistics",
+    "card_text_2": "We offer a comprehensive logistics service, covering everything from cargo consolidation and customs clearance at origin to final delivery at destination. Our market knowledge and extensive network of agents allow us to optimize routes and reduce transportation costs, ensuring the integrity of your goods at all times.",
+    "card_title_3": "Opening of Markets in China",
+    "card_text_3": "Do you want to expand your business to the Chinese market? Sino Argentina Group accompanies you every step of the way. We carry out customized market studies, identify potential clients and distributors, and provide you with the necessary advice to develop a successful business strategy..",
+    "card_title_4": "Business Trips to China",
+    "card_text_4": "We organize business trips tailored to your needs, facilitating the scheduling of meetings with suppliers, clients and potential business partners. Our team will accompany you throughout your stay, providing assistance with translation, logistics and visa management."
+  },
+  "RoadMap":{
+    "title":"STEP BY STEP IN ANALYSIS, NEGOTIATION AND PURCHASES WITH SUPPLIERS IN CHINA"
+  },
+  "mapCard":{
+    "title_1":"1. Information gathering:",
+    "text_1":"A meeting is held where the client provides details about the product to be sought (technical specifications, quantity, quality, etc.). Certification and compliance requirements are then defined. Finally, an estimated budget is established.",
+    "title_2":"2. Search and selection of suppliers:",
+    "text_2":"A thorough search is conducted in specialized databases and e-commerce platforms. Multiple suppliers are contacted and evaluated based on their reputation, production capacity and prices. Detailed product information, samples and catalogues are requested.",
+    "title_3":"3. Visit to factories:",
+    "text_3":"If necessary, factory visits are organized to verify production conditions and product quality.",
+    "title_4":"4. Negotiation of commercial terms:",
+    "text_4":"Prices, delivery times, payment terms, warranties and contract terms are negotiated. The contract is drafted and reviewed jointly with the client.",
+    "title_5":"5. Production monitoring:",
+    "text_5":"The production process is constantly monitored, ensuring that quality standards and agreed deadlines are met.",
+    "title_6":"6. Quality inspection:",
+    "text_6":"An independent inspection company is hired to verify the quality of the products before shipment.",
+    "title_7":"7. Shipping organization:",
+    "text_7":"The shipping details are coordinated, including packaging, transport and customs clearance at origin. Then, the international shipment is carried out, with all international logistics being tracked."
+  },
   "footer": {
     "title": "Connecting Argentine SMEs with the Chinese Market",
     "section_title": "Explore",

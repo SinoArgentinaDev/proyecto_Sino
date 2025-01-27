@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import { SocialIcon } from 'react-social-icons';
 import { Header } from '../components/shared/Header/Header'
 import { Title } from '../components/shared/Title/Title'
@@ -11,16 +12,23 @@ import { AllServices } from '../components/AllServices/AllServices';
 import { RoadMap } from '../components/RoadMap/RoadMap';
 
 export const Servicios = () => {
+
+    const [t, i18n] = useTranslation("global")
+
     return (
         <>
             <Header />
-            <Title title='SERVICIOS' text='Home / Servicios' />
-            <Titulo title="Sino Argentina Group: Asistencia Integral en Comercio" title2="Exterior: Simplificamos el Camino al Éxito" />
+            <Title title={t("banner_service.title")} text={t("banner_service.route")} />
+            <Titulo title={t("service_page.title")} title2={t("service_page.title_2")} />
             {/* SocialIcon fijado en la pantalla */}
             <div className="fixed bottom-4 right-4 z-50">
                 <SocialIcon url="https://web.whatsapp.com/" />
             </div>
-            <AboutUsTwo videoSrc={servicios} title="Confianza y Éxito en tus operaciones con el Mercado Chino sin barreras ni riesgos" paragraph1="Conocemos la complejidad de encontrar el proveedor adecuado en China para poder importar sin caer en fraudes o estafas; así como la incertidumbre de saber si el comprador de tus productos en China es serio y cumplirá con las condiciones de compra para tus exportaciones hacia China." paragraph2="Estas dificultades que se presentan tanto en la importación desde China como en la venta de productos argentinos hacia allí, requieren de nuestra gestión para llevar a cabo con éxito las negociaciones y gestiones de compra/venta. " paragraph3="Estas dificultades que se presentan tanto en la importación desde China como en la venta de productos argentinos hacia allí, requieren de nuestra gestión para llevar a cabo con éxito las negociaciones y gestiones de compra/venta. " />
+            <AboutUsTwo videoSrc={servicios} 
+            title={t("services_cardTwo.title")} 
+            paragraph1={t("services_cardTwo.text_1")} 
+            paragraph2={t("services_cardTwo.text_2")}  
+            paragraph3={t("services_cardTwo.text_3")}  />
             <AllServices />
             <RoadMap />
             <Contacto />
