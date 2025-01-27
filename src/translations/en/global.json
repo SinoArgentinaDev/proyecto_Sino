@@ -4,5 +4,16 @@
         "navbar-link2": "About us",
         "navbar-link3": "Services",
         "navbar-link4": "Contact"
+    },
+    "cover":{
+        "main-title": "SINO-ARGENTINA GROUP",
+        "button_text": "SERVICES"
+    },
+    "aboutUs":{
+        "title": "ABOUT US",
+        "text_1": "We are Sino Argentina Group, a foreign trade company with offices in Guangzhou, China, and Buenos Aires, Argentina. Our mission is to assist Argentine SMEs to integrate into the Chinese market.",
+        "text_2": "We offer a comprehensive foreign trade service with the Chinese market. We are responsible for facilitating all import and export procedures in both China and Argentina, with bilingual professionals based in China, with excellent command of Chinese and Spanish.",
+        "text_3": "If you are planning to open the Chinese market for your exports, we will carry out market research, identify potential customers, facilitate sales negotiations and verify the authenticity and seriousness of the Chinese importer.",
+        "button_text": "Learn more"
     }
 }

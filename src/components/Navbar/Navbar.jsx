@@ -3,7 +3,7 @@ import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
 import {useTranslation} from "react-i18next"
 
-export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
+export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {

@@ -1,9 +1,12 @@
 import { AiOutlineDoubleRight } from "react-icons/ai";
-import portadav from '../../assets/videos/portada.mp4';
+import {useTranslation} from "react-i18next"
 import { Sidebar } from '../Siderbar/Sidebar';
 import { Link } from "react-router-dom";
+import portadav from '../../assets/videos/portada.mp4';
+
 
 export const Video = () => {
+  const [t, i18n] = useTranslation("global")
   return (
     <div className="relative w-full h-[90vh] bg-black">
       {/* Video */}
@@ -19,12 +22,12 @@ export const Video = () => {
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white">
         {/* Etiqueta H1 centrada */}
         <h1 className="text-[70px] font-bold tracking-wide mt-24 text-center">
-          SINO-ARGENTINA GROUP
+          {t("cover.main-title")}
         </h1>
 
         {/* Botón con más separación */}
         <button className="bg-[#051d40] text-white font-bold tracking-widest px-6 py-2 rounded-full border-4 border-white hover:bg-blue-600 transition mt-8">
-          <Link to="/servicios">SERVICIOS</Link>
+          <Link to="/servicios">{t("cover.button_text")}</Link>
         </button>
 
         {/* Ícono rotado */}
