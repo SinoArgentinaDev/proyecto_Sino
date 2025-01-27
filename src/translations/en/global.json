@@ -1,0 +1,8 @@
+{
+    "header":{
+        "navbar-link1": "Home",
+        "navbar-link2": "About us",
+        "navbar-link3": "Services",
+        "navbar-link4": "Contact"
+    }
+}

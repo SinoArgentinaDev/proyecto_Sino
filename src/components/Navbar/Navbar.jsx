@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
+import {useTranslation} from "react-i18next"
 
 export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,28 +10,30 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
     setIsOpen(!isOpen);
   };
 
+  const [t, i18n] = useTranslation("global")
+
   return (
     <nav>
       {/* Menú de navegación para pantallas grandes */}
       <ul className="hidden sm:flex items-center space-x-6 text-lg text-[#545454] tracking-wide">
         <li>
           <a href="/" className="hover:text-gray-700 transition-colors">
-            {texto1}
+            {t("header.navbar-link1")}
           </a>
         </li>
         <li>
           <a href="/nosotros" className="hover:text-gray-700 transition-colors">
-            {texto2}
+            {t("header.navbar-link2")}
           </a>
         </li>
         <li>
           <a href="/servicios" className="hover:text-gray-700 transition-colors">
-            {texto3}
+          {t("header.navbar-link3")}
           </a>
         </li>
         <li>
           <a href="#contacto" className="hover:text-gray-700 transition-colors">
-            {texto4}
+          {t("header.navbar-link4")}
           </a>
         </li>
       </ul>
@@ -63,7 +66,7 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
                 className="px-4 py-2 rounded-md hover:bg-gray-100 hover:text-gray-900 transition-all"
                 onClick={toggleMenu}
               >
-                {texto1}
+                {t("header.navbar-link1")}
               </a>
             </li>
             <li>
@@ -72,7 +75,7 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
                 className="px-4 py-2 rounded-md hover:bg-gray-100 hover:text-gray-900 transition-all"
                 onClick={toggleMenu}
               >
-                {texto2}
+                 {t("header.navbar-link2")}
               </a>
             </li>
             <li>
@@ -81,7 +84,7 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
                 className="px-4 py-2 rounded-md hover:bg-gray-100 hover:text-gray-900 transition-all"
                 onClick={toggleMenu}
               >
-                {texto3}
+                 {t("header.navbar-link3")}
               </a>
             </li>
             <li>
@@ -90,7 +93,7 @@ export const Navbar = ({ texto1, texto2, texto3, texto4 }) => {
                 className="px-4 py-2 rounded-md hover:bg-gray-100 hover:text-gray-900 transition-all"
                 onClick={toggleMenu}
               >
-                {texto4}
+                 {t("header.navbar-link4")}
               </a>
             </li>
           </ul>
