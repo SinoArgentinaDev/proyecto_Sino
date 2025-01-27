@@ -15,5 +15,37 @@
         "text_2": "We offer a comprehensive foreign trade service with the Chinese market. We are responsible for facilitating all import and export procedures in both China and Argentina, with bilingual professionals based in China, with excellent command of Chinese and Spanish.",
         "text_3": "If you are planning to open the Chinese market for your exports, we will carry out market research, identify potential customers, facilitate sales negotiations and verify the authenticity and seriousness of the Chinese importer.",
         "button_text": "Learn more"
+    },
+    "banner":{
+        "title": "LEARN ABOUT THE GUIDE WE HAVE DESIGNED TO MAKE IT EASY AND SAFE FOR YOU TO EXPORT FROM CHINA",
+        "button_text":"Learn more"
+    },
+    "services_lading":{
+        "title":"SERVICES",
+        "card_title_1": "International Logistics",
+        "card_text_1": "We offer a comprehensive logistics service, covering everything from cargo consolidation and customs clearance at origin, to final delivery at destination.",
+        "card_title_2": "Analysis, Negotiation and Purchasing with Suppliers in China",
+        "card_text_2": "Our team of experts conducts an exhaustive analysis of the market, identifying the manufacturers that best fit your needs.",
+        "card_title_3": "Opening of Markets in China",
+        "card_text_3": "We carry out customized market studies, identify potential clients and distributors, and provide you with the necessary advice to develop a successful commercial strategy.",
+        "button_text": "See more"
+    },
+    "contact":{
+        "title": "CONTACT US",
+        "fullName": "Full Name",
+        "company_name": "Company Name",
+        "id": "CUIT/CUIL",
+        "email": "Email",
+        "tel":"Phone",
+        "message":"Message",
+        "button_text": "Send"
+    },
+    "contact_placerholder":{
+        "fullName": "Name and Surname",
+        "company_name": "Company name",
+        "id": "Numbers without spaces or dashes",
+        "email": "email@example.com",
+        "tel":"Area code + phone number",
+        "message":"Please enter your message here"
     }
 }

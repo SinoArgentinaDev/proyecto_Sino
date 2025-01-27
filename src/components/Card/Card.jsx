@@ -1,7 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { useTranslation } from 'react-i18next';
 
 export const Card = ({ src, alt, title, text }) => {
+const [t, i18n] = useTranslation("global")
     return (
         <div className="relative w-[310px] bg-white border border-gray-400 rounded-lg shadow-md dark:bg-gray-900 dark:border-gray-700">
             <a href="#">
@@ -23,7 +24,7 @@ export const Card = ({ src, alt, title, text }) => {
                     href="/servicios"
                     className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#051d40] focus:ring-4 focus:outline-none"
                 >
-                    Ver más
+                    {t("services_lading.button_text")}
                     <svg
                         className="rtl:rotate-180 w-4 h-4 ms-2"
                         aria-hidden="true"
@@ -46,12 +47,7 @@ export const Card = ({ src, alt, title, text }) => {
 };
 
 // Validación de props
-Card.propTypes = {
-    src: PropTypes.string.isRequired,
-    alt: PropTypes.string,
-    title: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
-};
+
 
 // Exportación por defecto con el nombre correcto
 export default Card;

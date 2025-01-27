@@ -1,4 +1,5 @@
 import React from 'react';
+import {useTranslation} from "react-i18next"
 import { Card } from '../Card/Card';
 import servicio1 from '../../assets/img/card1.png';
 import servicio2 from '../../assets/img/card2.png';
@@ -6,31 +7,32 @@ import servicio3 from '../../assets/img/card3.png';
 
 
 export const Servicios = () => {
+    const [t, i18n] = useTranslation("global")
     return (
         <div className="container mx-auto p-6">
             {/* Encabezado centrado */}
             <h1 className="text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-6 mb-8">
-                SERVICIOS
+               {t("services_lading.title")}
             </h1>
 
             {/* Contenedor de las tarjetas */}
             <div className="flex flex-wrap justify-center gap-24">
                 <Card
                     src={servicio2}
-                    title="Logística Internacional"
-                    text="Ofrecemos un servicio de logística integral, abarcando desde la consolidación de carga y el despacho aduanero en origen, hasta la entrega final en destino."
+                    title={t("services_lading.card_title_1")}
+                    text={t("services_lading.card_text_1")}
                     alt="Logistica"
                 />
                 <Card
                     src={servicio3}
-                    title="Análisis, Negociación y Compras con Proveedores en China"
-                    text="Nuestro equipo de expertos realiza un análisis exhaustivo del mercado, identificando a los fabricantes que mejor se ajustan a tus necesidades."
+                    title={t("services_lading.card_title_2")}
+                    text={t("services_lading.card_text_2")}
                     alt="Transporte"
                 />
                 <Card
                     src={servicio1}
-                    title="Apertura de Mercados en China"
-                    text="Realizamos estudios de mercado personalizados, identificamos potenciales clientes y distribuidores, y te brindamos el asesoramiento necesario para desarrollar una estrategia comercial exitosa."
+                    title={t("services_lading.card_title_3")}
+                    text={t("services_lading.card_text_3")}
                     alt="Aduana"
                 />
             </div>

@@ -15,5 +15,37 @@
         "text_2": "Ofrecemos un servicio integral de comercio exterior con el mercado Chino. Nos encargamos de facilitar todas las gestiones de importación y exportación tanto en China como en Argentina, con profesionales bilingües radicados en China, con excelente dominio del idioma chino y español.",
         "text_3": "En el caso de que estés planificando abrir el mercado Chino para tus exportaciones, nos encargamos de efectuar la investigación de mercado, identificando posibles clientes; facilitamos la negociación de venta y constatamos la veracidad y seriedad del importador chino.",
         "button_text": "Saber más"
+    },
+    "banner":{
+        "title": "CONOCE LA GUÍA QUE HEMOS DISEÑADO PARA QUE EXPORTES DESDE CHINA FÁCIL Y SEGURO",
+        "button_text":"Saber más"
+    },
+    "services_lading":{
+        "title":"SERVICIOS",
+        "card_title_1": "Logística Internacional",
+        "card_text_1": "Ofrecemos un servicio de logística integral, abarcando desde la consolidación de carga y el despacho aduanero en origen, hasta la entrega final en destino",
+        "card_title_2": "Análisis, Negociación y Compras con Proveedores en China",
+        "card_text_2": "Nuestro equipo de expertos realiza un análisis exhaustivo del mercado, identificando a los fabricantes que mejor se ajustan a tus necesidades",
+        "card_title_3": "Apertura de Mercados en China",
+        "card_text_3": "Realizamos estudios de mercado personalizados, identificamos potenciales clientes y distribuidores, y te brindamos el asesoramiento necesario para desarrollar una estrategia comercial exitosa.",
+        "button_text": "Ver más"
+    },
+    "contact":{
+        "title": "CONTÁCTENOS",
+        "fullName": "Nombre Completo",
+        "company_name": "Razón Social",
+        "id": "CUIT/CUIL",
+        "email": "Correo Electrónico",
+        "tel":"Teléfono",
+        "message":"Mensaje",
+        "button_text": "Enviar"
+    },
+    "contact_placerholder":{
+        "fullName": "Nombre y Apellido",
+        "company_name": "Nombre de la empresa",
+        "id": "Números sin espacios ni guiones",
+        "email": "correo@ejemplo.com",
+        "tel":"Cód. de área  + número de teléfono",
+        "message":"Por favor, ingrese su mensaje aquí"
     }
 }
