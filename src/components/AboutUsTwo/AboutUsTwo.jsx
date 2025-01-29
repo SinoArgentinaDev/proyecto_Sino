@@ -8,9 +8,9 @@ export const AboutUsTwo = ({
   paragraph3,
 }) => {
   return (
-    <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 p-8 md:p-12 lg:p-14">
+    <div className="flex flex-col md:flex-row items-center mt-4 md:items-start gap-8 md:gap-12 p-8 md:p-12 lg:p-14">
       {/* Video Section */}
-      <div className="relative w-full md:w-[45vw] h-[40vh] md:h-[70vh] lg:h-[82vh]">
+      <div className="relative w-full md:w-[42vw] h-[40vh] md:h-[70vh] lg:h-[76vh]">
         <video
           className="w-full h-full object-cover shadow-lg"
           src={videoSrc}
@@ -21,8 +21,8 @@ export const AboutUsTwo = ({
       </div>
 
       {/* Text Section */}
-      <div className="flex flex-col justify-center w-full md:w-1/2 space-y-4 md:space-y-6 text-gray-800">
-        <h1 className="text-2xl md:text-xl font-medium text-center md:text-left tracking-wide text-[#051d40] mt-3">
+      <div className="flex flex-col justify-center w-full md:w-1/2 space-y-4 md:space-y-6 text-gray-800 ">
+        <h1 className="lg:text-3xl md:text-xl text-2xl font-medium text-center md:text-left tracking-wide text-[#051d40] mt-3">
           {title}
         </h1>
         <p className="text-justify leading-relaxed text-lg md:text-base lg:text-xl">{paragraph1}</p>
