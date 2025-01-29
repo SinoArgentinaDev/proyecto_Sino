@@ -5,6 +5,11 @@
     "navbar-link3": "Services",
     "navbar-link4": "Contact"
   },
+  "button-lan":{
+    "button_text":"Language",
+    "spanish": "Spanish",
+    "english":"English"
+  },
   "cover": {
     "main-title": "SINO-ARGENTINA GROUP",
     "button_text": "SERVICES"

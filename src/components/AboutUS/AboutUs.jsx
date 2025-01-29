@@ -30,7 +30,7 @@ export const AboutUs = ({
         
         {/* Condicional para mostrar el botón */}
         {showButton && (
-          <button className="self-center md:self-start w-2/5 bg-[#051d40] text-white font-medium px-6 py-2 rounded-md border-2 border-blue-600 hover:bg-blue-600 transition mt-8">
+          <button className="self-center md:self-start md:w-2/5 w-3/4 bg-[#051d40] text-white font-medium px-6 py-2 rounded-md border-2 border-blue-600 hover:bg-blue-600 transition mt-8">
             <a href="/nosotros">{t("aboutUs.button_text")}</a> 
           </button>
         )}
