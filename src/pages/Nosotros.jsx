@@ -7,9 +7,10 @@ import { About } from '../components/About/About';
 import { Titulo } from '../components/Titulo/Titulo';
 import { Contacto } from '../components/Contacto/Contacto';
 import { Footer } from '../components/shared/Footer/Footer';
-import nosotros from '../assets/videos/SobreNosotros.mp4';
+import nosotrosUno from '../assets/videos/SobreNosotros.mp4';
+import nosotros from '../assets/videos/SobreNosotrosPage.mp4';
 import mision from '../assets/img/img1.jpg';
-import vision from '../assets/img/img2.jpg';
+import vision from '../assets/img/vision2.jpg';
 import { HorizontalCard } from '../components/HorizontalCard/HorizontalCard';
 import { InvertCard } from '../components/HorizontalCard/InvertCard';
 import { WhyUs } from '../components/WhyUs/WhyUs';
@@ -28,7 +29,7 @@ export const Nosotros = () => {
         <SocialIcon url="https://web.whatsapp.com/" />
       </div>
       <AboutUsTwo
-        videoSrc={nosotros}
+        videoSrc={nosotrosUno}
         title={t("about_card_two.title")}
         paragraph1={t("about_card_two.text_1")}
         paragraph2={t("about_card_two.text_2")}
