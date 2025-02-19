@@ -1,12 +1,11 @@
 import { AiOutlineDoubleRight } from "react-icons/ai";
-import {useTranslation} from "react-i18next"
-import { Sidebar } from '../Siderbar/Sidebar';
+import { useTranslation } from "react-i18next";
+import { Sidebar } from "../Siderbar/Sidebar";
 import { Link } from "react-router-dom";
-import portadav from '../../assets/videos/portada.mp4';
-
+import portadav from "../../assets/videos/portada.mp4";
 
 export const Video = () => {
-  const [t, i18n] = useTranslation("global")
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="relative w-full h-[90vh] bg-black">
       {/* Video */}
@@ -21,7 +20,9 @@ export const Video = () => {
       {/* Contenedor para el texto y el botón */}
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white">
         {/* Etiqueta H1 centrada */}
-        <h1 className=" text-[30px] md:text-[80px] lg:text-[70px] xl:text-[75px] font-bold tracking-wide mt-24 text-center text-white [-webkit-text-stroke:2px_black]">
+        <h1
+          className="text-[30px] md:text-[80px] lg:text-[70px] xl:text-[75px] font-bold tracking-wide mt-24 text-center text-white drop-shadow-[2px_2px_0px_black]"
+        >
           {t("cover.main-title")}
         </h1>
 
@@ -42,7 +43,6 @@ export const Video = () => {
       </div>
 
       {/* Social Icon de WhatsApp en la esquina inferior derecha */}
-
     </div>
   );
 };
