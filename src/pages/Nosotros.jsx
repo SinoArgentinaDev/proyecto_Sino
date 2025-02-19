@@ -7,7 +7,7 @@ import { About } from '../components/About/About';
 import { Titulo } from '../components/Titulo/Titulo';
 import { Contacto } from '../components/Contacto/Contacto';
 import { Footer } from '../components/shared/Footer/Footer';
-import nosotrosUno from '../assets/videos/SobreNosotros.mp4';
+import nosotrosUno from '../assets/videos/about.mp4';
 import nosotros from '../assets/videos/SobreNosotrosPage.mp4';
 import mision from '../assets/img/img1.jpg';
 import vision from '../assets/img/vision2.jpg';
@@ -26,7 +26,11 @@ export const Nosotros = () => {
       <Titulo title={t("page_About.title")} title2={t("page_About.title_2")} />
       {/* SocialIcon fijado en la pantalla */}
       <div className="fixed bottom-4 right-4 z-50">
-        <SocialIcon url="https://web.whatsapp.com/" />
+        <SocialIcon
+          url="https://web.whatsapp.com/"
+          href="https://wa.me/541156438774"
+          target="_blank"
+        />
       </div>
       <AboutUsTwo
         videoSrc={nosotrosUno}

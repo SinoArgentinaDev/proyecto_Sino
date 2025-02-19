@@ -17,7 +17,7 @@ export const About =  ({
         </div>
   
         {/* Video Section */}
-        <div className="relative w-full md:w-[42vw] h-[40vh] md:h-[70vh] lg:h-[72vh]">
+        <div className="relative w-full md:w-[42vw] h-[40vh] md:h-[70vh] lg:h-[95vh]">
           <video
             className="w-full h-full object-cover shadow-lg"
             src={videoSrc}

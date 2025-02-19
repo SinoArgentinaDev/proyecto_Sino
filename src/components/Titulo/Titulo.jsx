@@ -4,7 +4,7 @@ export const Titulo = ({title, title2}) => {
   return (
     <div className='mx-auto mt-16 px-4 sm:px-6 lg:px-8 w-full max-w-8xl'> {/* Contenedor responsivo */}
       <h1 
-        className='text-xl md:text-3xl lg:text-5xl font-medium text-center tracking-wide text-[#051d40] leading-snug sm:leading-tight'>
+        className='text-xl md:text-3xl lg:text-[42px] font-medium text-center tracking-wide text-[#051d40] leading-snug sm:leading-tight'>
        {title}<br />
         <span className='block mt-2'>{title2}</span>
       </h1>

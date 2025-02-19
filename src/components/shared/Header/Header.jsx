@@ -23,7 +23,7 @@ export const Header = () => {
     <header className="flex items-center justify-between px-6 py-2 bg-white shadow-md md:px-12">
       {/* Logo */}
       <img
-        className="w-24 md:w-28"
+        className="w-24 "
         src={sino_logo}
         alt="Logo de la empresa"
       />

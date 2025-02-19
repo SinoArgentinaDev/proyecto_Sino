@@ -9,7 +9,7 @@ export const AboutUs = ({
   return (
     <div className="flex flex-col md:flex-row items-center md:items-start gap-12 p-14">
       {/* Video Section */}
-      <div className="relative w-full md:w-[40vw] h-[50vh] md:h-[80vh]">
+      <div className="relative w-full md:w-[44vw] h-[50vh] md:h-[100vh]">
         <video
           className="w-full h-full object-cover shadow-lg ml-4"
           src={videoSrc}
@@ -24,9 +24,9 @@ export const AboutUs = ({
         <h1 className="text-4xl font-extrabold text-center md:text-left tracking-widest text-[#051d40] mt-3">
         {t("aboutUs.title")}
         </h1>
-        <p className="text-justify leading-relaxed text-xl">{t("aboutUs.text_1")}</p>
-        <p className="text-justify leading-relaxed text-xl">{t("aboutUs.text_2")}</p>
-        <p className="text-justify leading-relaxed text-xl">{t("aboutUs.text_3")}</p>
+        <p className="text-justify leading-relaxed text-lg">{t("aboutUs.text_1")}</p>
+        <p className="text-justify leading-relaxed text-lg">{t("aboutUs.text_2")}</p>
+        <p className="text-justify leading-relaxed text-lg">{t("aboutUs.text_3")}</p>
         
         {/* Condicional para mostrar el botón */}
         {showButton && (

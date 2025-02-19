@@ -16,9 +16,9 @@
   },
   "aboutUs": {
     "title": "SOBRE NOSOTROS",
-    "text_1": "Somos Sino Argentina Group, una empresa de comercio exterior con oficinas en la ciudad de Guangzhou, China, y en Buenos Aires, Argentina. Nuestra misión es asistir a las pymes argentinas para integrarse en el mercado Chino.",
-    "text_2": "Ofrecemos un servicio integral de comercio exterior con el mercado Chino. Nos encargamos de facilitar todas las gestiones de importación y exportación tanto en China como en Argentina, con profesionales bilingües radicados en China, con excelente dominio del idioma chino y español.",
-    "text_3": "En el caso de que estés planificando abrir el mercado Chino para tus exportaciones, nos encargamos de efectuar la investigación de mercado, identificando posibles clientes; facilitamos la negociación de venta y constatamos la veracidad y seriedad del importador chino.",
+    "text_1": "Sino Argentina Group es una empresa dedicada a sumar valor en la cadena productiva del comercio exterior a nivel global, haciendo hincapié entre las naciones de Argentina y China, contamos con presencia estratégica en Buenos Aires y Guangzhou, (Cantón).",
+    "text_2": "Contamos con más de doce años ininterrumpidos en China, asesorando integralmente y representando empresas argentinas de primera línea, logrando el reconocimiento del arduo trabajo de nuestro equipo por la cancillería argentina, otorgando el certificado de la prestigiosa MARCA PAÏS a uno de nuestros socios cuatrilingüe establecido en China con el licenciamiento de Argentino en el mundo.",
+    "text_3": "En Argentina contamos con un amplio conocimiento en el comercio internacional con socios de más de 25 años de experiencia en comercio exterior especializados en desarrollo de negocios, apertura de mercados y logística internacional.",
     "button_text": "Saber más"
   },
   "banner": {
@@ -143,7 +143,7 @@
     "section_title2": "Visítanos",
     "section_links2": ["San Martin 523", "Ciudad de Buenos Aires", "Argentina"],
     "section_title3": "Legal",
-    "section_links3": ["info@sinoargentina.com", "1800 000 123"],
+    "section_links3": ["florenzo@sino-argentina.com", "1156438774"],
     "copyright": "2025 Sino Argentino Group. Todos los derechos reservados."
   }
 }
