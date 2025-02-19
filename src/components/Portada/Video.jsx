@@ -18,10 +18,10 @@ export const Video = () => {
       />
 
       {/* Contenedor para el texto y el botón */}
-      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white">
+      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white ">
         {/* Etiqueta H1 centrada */}
         <h1
-          className="text-[30px] md:text-[80px] lg:text-[70px] xl:text-[75px] font-bold tracking-wide mt-24 text-center text-white drop-shadow-[2px_2px_0px_black]"
+          className="text-[46px] md:text-[80px] lg:text-[70px] xl:text-[75px] font-bold tracking-wide mt-24 text-center text-white drop-shadow-[2px_2px_0px_black]"
         >
           {t("cover.main-title")}
         </h1>
