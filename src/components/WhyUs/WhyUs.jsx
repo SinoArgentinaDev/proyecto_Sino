@@ -10,7 +10,7 @@ export const WhyUs = () => {
 
   return (
     <div className="bg-[rgba(166,166,166,0.15)] py-10">
-      <h1 className="text-4xl font-extrabold text-center tracking-wider text-[#051d40] mb-12">
+      <h1 className="text-4xl font-extrabold text-center tracking-wider text-[#051d40] mb-12 drop-shadow-[2px_1px_0px_black]">
         {t("whyUs.title")}
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-14 px-4 max-w-6xl mx-auto">

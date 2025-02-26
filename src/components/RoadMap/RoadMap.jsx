@@ -6,13 +6,13 @@ import { FaRegHandshake } from "react-icons/fa6";
 import { PiShippingContainerDuotone } from "react-icons/pi";
 import { useTranslation } from "react-i18next";
 
-import info from '../../assets/img/info.png'
-import img from "../../assets/img/card2.png";
-import fabrica from '../../assets/img/fabrica.png'
-import proveedor from "../../assets/img/proveedor.png";
-import negociacion from "../../assets/img/negociacion.png"
-import seguir from '../../assets/img/seguir.png'
-import calidad from '../../assets/img/calidad.png'
+import info from '../../assets/img/5.png'
+import img from "../../assets/img/6.png";
+import fabrica from '../../assets/img/2.png'
+import proveedor from "../../assets/img/1.png";
+import negociacion from "../../assets/img/7.png"
+import seguir from '../../assets/img/8.png'
+import calidad from '../../assets/img/3.png'
 
 
 export const RoadMap = () => {
@@ -22,7 +22,7 @@ export const RoadMap = () => {
     return (
         <div className=" py-8">
             {/* Título */}
-            <h1 className="text-3xl lg:text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-6 mb-14 px-10">
+            <h1 className="text-3xl lg:text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-6 mb-14 px-10 drop-shadow-[2px_1px_0px_black]">
                 {t("RoadMap.title")}
             </h1>
 

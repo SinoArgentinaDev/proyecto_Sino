@@ -19,11 +19,11 @@ export const InvertCard = ({ url, title, texts }) => {
 
       {/* Text Section */}
       <div className="flex flex-col justify-center md:w-1/2 space-y-6 text-gray-800">
-        <h1 className="text-3xl md:text-3xl lg:text-4xl font-extrabold text-center md:text-center tracking-widest text-[#051d40] mt-3">
+        <h1 className="text-3xl md:text-3xl lg:text-4xl font-extrabold text-center md:text-center tracking-widest text-[#051d40] mt-3 drop-shadow-[2px_1px_0px_black]">
           {title}
         </h1>
 
-        <div className="space-y-4 text-justify leading-relaxed text-lg md:text-base lg:text-xl">
+        <div className="space-y-4 text-justify leading-relaxed text-lg lg:text-2xl">
           {/* Renderizado dinámico de textos */}
           {texts.map((text, index) => (
             <p key={index}>{text}</p>

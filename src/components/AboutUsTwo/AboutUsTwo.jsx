@@ -25,9 +25,9 @@ export const AboutUsTwo = ({
         <h1 className="lg:text-3xl md:text-xl text-2xl font-medium text-center md:text-left tracking-wide text-[#051d40] mt-2">
           {title}
         </h1>
-        <p className="text-justify leading-relaxed text-lg md:text-base lg:text-xl">{paragraph1}</p>
-        <p className="text-justify leading-relaxed text-lg md:text-base lg:text-xl">{paragraph2}</p>
-        <p className="text-justify leading-relaxed text-lg md:text-base lg:text-xl">{paragraph3}</p>
+        <p className="text-justify leading-relaxed text-lg  lg:text-xl">{paragraph1}</p>
+        <p className="text-justify leading-relaxed text-lg  lg:text-xl">{paragraph2}</p>
+        <p className="text-justify leading-relaxed text-lg  lg:text-xl">{paragraph3}</p>
       </div>
     </div>
   );
