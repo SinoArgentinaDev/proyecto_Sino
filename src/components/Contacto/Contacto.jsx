@@ -23,7 +23,7 @@ export const Contacto = () => {
         e.preventDefault();
     
         try {
-            const response = await fetch("http://localhost:3000/send-email", {
+            const response = await fetch("https://back-sino-production.up.railway.app/send-email", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData),
