@@ -2,19 +2,16 @@ import { AiOutlineDoubleRight } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 import { Sidebar } from "../Siderbar/Sidebar";
 import { Link } from "react-router-dom";
-import portadav from "../../assets/videos/portada.mp4";
+import portadav from "../../assets/img/serviciosImg.png";
 
 export const Video = () => {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="relative w-full h-[100vh] bg-black">
       {/* Video */}
-      <video
+      <img
         className="w-full h-full object-cover"
-        src={portadav}
-        autoPlay
-        loop
-        muted
+        src={portadav}  
       />
 
       {/* Contenedor para el texto y el botón */}
@@ -39,8 +36,6 @@ export const Video = () => {
       <div className="absolute inset-y-0 -left-2 -ml-6 flex items-center">
         <Sidebar />
       </div>
-
-      {/* Social Icon de WhatsApp en la esquina inferior derecha */}
     </div>
   );
 };

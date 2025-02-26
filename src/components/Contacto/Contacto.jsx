@@ -19,11 +19,30 @@ export const Contacto = () => {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Aquí puedes manejar el envío del formulario (e.g., hacer una petición HTTP)
-        console.log(formData);
+    
+        try {
+            const response = await fetch("http://localhost:3000/send-email", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(formData),
+            });
+    
+            const result = await response.json();
+    
+            if (response.ok) {
+                alert("Correo enviado exitosamente");
+                setFormData({ fullName: "", companyName: "", cuit: "", email: "", phone: "", message: "" });
+            } else {
+                alert("Error al enviar el correo: " + result.message);
+            }
+        } catch (error) {
+            console.error(error);
+            alert("Hubo un problema al enviar el correo");
+        }
     };
+    
 
     const [t, i18n] = useTranslation("global")
     
