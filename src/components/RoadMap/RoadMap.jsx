@@ -22,7 +22,7 @@ export const RoadMap = () => {
     return (
         <div className=" py-8">
             {/* Título */}
-            <h1 className="text-3xl lg:text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-6 mb-14 px-10 drop-shadow-[2px_1px_0px_black]">
+            <h1 className="text-3xl lg:text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-6 mb-14 px-10 drop-shadow-[2px_1px_0px_gray]">
                 {t("RoadMap.title")}
             </h1>
 

@@ -19,7 +19,7 @@ export const InvertCard = ({ url, title, texts }) => {
 
       {/* Text Section */}
       <div className="flex flex-col justify-center md:w-1/2 space-y-6 text-gray-800">
-        <h1 className="text-3xl md:text-3xl lg:text-4xl font-extrabold text-center md:text-center tracking-widest text-[#051d40] mt-3 drop-shadow-[2px_1px_0px_black]">
+        <h1 className="text-3xl md:text-3xl lg:text-4xl font-extrabold text-center md:text-center tracking-widest text-[#051d40] mt-3 drop-shadow-[2px_1px_0px_gray]">
           {title}
         </h1>
 

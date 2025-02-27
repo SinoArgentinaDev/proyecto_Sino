@@ -5,7 +5,7 @@ export const MapCard = ({ titulo, Icon, text, url, bgColor }) => {
       {/* Header Section */}
       <div className={`relative ${bgColor} text-white h-[290px]`}>
         <div className="p-6 flex flex-col items-center">
-          <h1 className="text-center text-xl font-bold mb-4">{titulo}</h1>
+          <h1 className="text-center text-xl font-bold mb-4 drop-shadow-[2px_1px_0px_black]">{titulo}</h1>
           <p className="text-[100px] text-white">{Icon}</p>
         </div>
         {/* Wave Shape */}
