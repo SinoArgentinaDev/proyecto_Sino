@@ -21,7 +21,7 @@ export const AboutUs = ({
 
       {/* Text Section */}
       <div className="flex flex-col justify-center md:w-1/2 space-y-6 text-gray-800">
-        <h1 className="text-4xl font-extrabold text-center md:text-left tracking-widest text-[#051d40] mt-3 drop-shadow-[2px_1px_0px_black]">
+        <h1 className="text-4xl font-extrabold text-center md:text-left tracking-widest text-[#051d40] mt-3 drop-shadow-[2px_1px_0px_gray]">
         {t("aboutUs.title")}
         </h1>
         <p className="text-justify leading-relaxed text-xl">{t("aboutUs.text_1")}</p>
