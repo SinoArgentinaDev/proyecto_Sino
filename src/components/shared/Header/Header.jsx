@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Navbar } from "../../Navbar/Navbar";
-import sino_logo from "../../../assets/img/SINO.png";
+import sino_logo from "../../../assets/img/SIno.png";
 import flagUsa from "../../../assets/img/flag-usa.svg";
 import flagSpain from "../../../assets/img/flagspain.svg";
 import useLanguage from "../../../hooks/useLanguage";
