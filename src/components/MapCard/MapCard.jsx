@@ -27,17 +27,17 @@ export const MapCard = ({ titulo, Icon, text, url, bgColor }) => {
 
       {/* Content Section */}
       <div className="p-6 text-gray-700 pb-20">
-        <p className="mb-32 text-justify leading-relaxed">{text}</p>
+        <p className="text-justify leading-relaxed">{text}</p>
       </div>
 
-      {/* Image Section */}
+      {/* Image Section 
       <div className="absolute bottom-0 left-0 w-full p-4">
         <img
           className="w-full h-44 object-cover shadow-md"
           src={url}
           alt="Silhouette of people in a meeting"
         />
-      </div>
+      </div>*/}
     </div>
   );
 };

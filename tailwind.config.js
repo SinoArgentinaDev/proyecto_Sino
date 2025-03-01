@@ -6,9 +6,15 @@ export default {
   ],
   theme: {
     extend: {},
+    screens: {
+      sm: "700px",
+      md: "1080px", // md ahora empieza en 1080px
+      lg: "1920px", // lg ahora empieza en 1920px
+    },
     fontFamily:{
       sans: ['Now', 'sans-serif']
-    }
+    },
+    
   },
   plugins: [],
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Navbar } from "../../Navbar/Navbar";
-import sino_logo from "../../../assets/img/sinoLogo.png";
+import sino_logo from "../../../assets/img/SINO.png";
 import flagUsa from "../../../assets/img/flag-usa.svg";
 import flagSpain from "../../../assets/img/flagspain.svg";
 import useLanguage from "../../../hooks/useLanguage";
@@ -21,12 +21,6 @@ export const Header = () => {
 
   return (
     <header className="flex items-center justify-between px-6 py-2 bg-white shadow-md md:px-12">
-      {/* Logo */}
-      <img
-        className="w-24 "
-        src={sino_logo}
-        alt="Logo de la empresa"
-      />
 
       {/* Navbar y menú de idiomas */}
       <div className="flex items-center space-x-6 md:space-x-20 relative">
@@ -64,6 +58,12 @@ export const Header = () => {
           )}
         </div>
       </div>
+       {/* Logo */}
+       <img
+          className="w-32 "
+          src={sino_logo}
+          alt="Logo de la empresa"
+        />
     </header>
   );
 };

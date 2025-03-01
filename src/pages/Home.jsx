@@ -7,6 +7,7 @@ import { Footer } from "../components/shared/Footer/Footer";
 import { Header } from "../components/shared/Header/Header";
 import videoUs from "../assets/videos/homeImg.mp4";
 import { SocialIcon } from "react-social-icons";
+import { ServiceHome } from "../components/ServicesHome/ServiceHome";
 
 export const Home = () => {
   return (
@@ -21,8 +22,9 @@ export const Home = () => {
       </div>
       <Portada />
       <AboutUs videoSrc={videoUs} showButton={true} />
-      <Banner />
-    {/*<Servicios />*/}
+      <ServiceHome />
+      {/*<Banner />*/}
+      {/*<Servicios />*/}
       <Contacto />
       <Footer />
     </div>

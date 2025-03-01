@@ -1,6 +1,6 @@
 import React from 'react';
 import { Links } from './Links';
-import sino_logo from '../../../assets/img/sinoWhite.png';
+import sino_logo from '../../../assets/img/SIno.png';
 import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {

@@ -8,7 +8,7 @@ export const Links = ({ titulo, links }) => {
         {links.map((link, index) => (
           <li 
             key={index} 
-            className="text-white hover:text-white transition-colors duration-200 cursor-pointer"
+            className="text-white hover:text-white transition-colors duration-200"
           >
             {link}
           </li>

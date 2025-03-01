@@ -14,7 +14,7 @@ export const AllServices = () => {
         <h2 className="text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-10 mb-12">
         {t("allServices.title")}
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
         <HelpCard
           icon={<SiShopify />}
           name={t("allServices.card_title_1")}

@@ -15,7 +15,7 @@ export const Navbar = () => {
   return (
     <nav>
       {/* Menú de navegación para pantallas grandes */}
-      <ul className="hidden sm:flex items-center space-x-6 text-lg text-[#545454] tracking-wide">
+      <ul className="hidden sm:flex items-center space-x-6 text-2xl text-gray-800 tracking-wide">
         <li>
           <a href="/" className="hover:text-gray-700 transition-colors">
             {t("header.navbar-link1")}

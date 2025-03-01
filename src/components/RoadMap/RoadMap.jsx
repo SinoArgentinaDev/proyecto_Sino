@@ -27,13 +27,13 @@ export const RoadMap = () => {
             </h1>
 
             {/* Contenedor de Tarjetas */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6 lg:px-16">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 lg:px-16">
                 {/* Tarjeta 1 */}
                 <MapCard
                     titulo={t("mapCard.title_1")}
                     text={t("mapCard.text_1")}
                     Icon={<TiInfo />}
-                    url={info}
+                    //url={info}
                     bgColor="bg-[#051d40]"
                 />
 
@@ -42,7 +42,7 @@ export const RoadMap = () => {
                     titulo={t("mapCard.title_2")}
                     text={t("mapCard.text_2")}
                     Icon={<LuUserSearch />}
-                    url={proveedor}
+                    //url={proveedor}
                     bgColor="bg-[#002f66]"
                 />
 
@@ -51,7 +51,7 @@ export const RoadMap = () => {
                     titulo={t("mapCard.title_3")}
                     text={t("mapCard.text_3")}
                     Icon={<MdOutlineFactory />}
-                    url={fabrica}
+                    //url={fabrica}
                     bgColor="bg-[#0c4793]"
                 />
 
@@ -60,7 +60,7 @@ export const RoadMap = () => {
                     titulo={t("mapCard.title_4")}
                     text={t("mapCard.text_4")}
                     Icon={<FaRegHandshake />}
-                    url={negociacion}
+                    //url={negociacion}
                     bgColor="bg-[#3181b7]"
                 />
 
@@ -69,7 +69,7 @@ export const RoadMap = () => {
                     titulo={t("mapCard.title_5")}
                     text={t("mapCard.text_5")}
                     Icon={<LuSearchCheck />}
-                    url={seguir}
+                    //url={seguir}
                     bgColor="bg-[#7b98b3]"
                 />
 
@@ -78,7 +78,7 @@ export const RoadMap = () => {
                     titulo={t("mapCard.title_6")}
                     text={t("mapCard.text_6")}
                     Icon={<LuPackageSearch />}
-                    url={calidad}
+                    //url={calidad}
                     bgColor="bg-[#3181b7]"
                 />
 
@@ -87,7 +87,7 @@ export const RoadMap = () => {
                     titulo={t("mapCard.title_7")}
                     text={t("mapCard.text_7")}
                     Icon={<PiShippingContainerDuotone />}
-                    url={img}
+                    //url={img}
                     bgColor="bg-[#0c4793]"
                 />
             </div>

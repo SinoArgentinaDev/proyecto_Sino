@@ -13,7 +13,7 @@ export const WhyUs = () => {
       <h1 className="text-4xl font-extrabold text-center tracking-wider text-[#051d40] mb-12">
         {t("whyUs.title")}
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-14 px-4 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-0 px-8 max-w-8xl mx-auto">
         <CardWhy icon={<IoMdGlobe/>} text={t("whyUs.text_card_1")} />
         <CardWhy icon={<IoLanguageOutline/>} text={t("whyUs.text_card_2")} />
         <CardWhy icon={<FaUserTie />} text={t("whyUs.text_card_3")}  />

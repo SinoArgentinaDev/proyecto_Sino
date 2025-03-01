@@ -32,6 +32,16 @@ export const Nosotros = () => {
           target="_blank"
         />
       </div>
+      <HorizontalCard
+        url={mision}
+        title={t("HorizontalCard.title")}
+        texts={t("HorizontalCard.text", { returnObjects: true })}
+      />
+      <InvertCard
+        url={vision}
+        title={t("InvertCard.title")}
+        texts={t("InvertCard.text", { returnObjects: true })}
+      />
       <AboutUsTwo
         videoSrc={nosotrosUno}
         title={t("about_card_two.title")}
@@ -45,16 +55,7 @@ export const Nosotros = () => {
         paragraph2={t("about_card.text_2")}
         paragraph3={t("about_card.text_3")}
       />
-      <HorizontalCard
-        url={mision}
-        title={t("HorizontalCard.title")}
-        texts={t("HorizontalCard.text", { returnObjects: true })}
-      />
-      <InvertCard
-        url={vision}
-        title={t("InvertCard.title")}
-        texts={t("InvertCard.text", { returnObjects: true })}
-      />
+     
       <WhyUs />
       <Contacto />
       <Footer />
