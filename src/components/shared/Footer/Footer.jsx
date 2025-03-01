@@ -23,7 +23,7 @@ export const Footer = () => {
           links={t("footer.section_links", { returnObjects: true })}
         />
 
-        {/* Links - Visítanos */}
+        {/* Links - Visítanos  aas*/}
         <Links
           titulo={t("footer.section_title2")}
           links={t("footer.section_links2", { returnObjects: true })}
