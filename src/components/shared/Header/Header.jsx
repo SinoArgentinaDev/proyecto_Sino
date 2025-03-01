@@ -60,7 +60,7 @@ export const Header = () => {
       </div>
        {/* Logo */}
        <img
-          className="w-32 "
+          className="w-28 "
           src={sino_logo}
           alt="Logo de la empresa"
         />
