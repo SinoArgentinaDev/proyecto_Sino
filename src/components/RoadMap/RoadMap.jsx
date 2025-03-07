@@ -6,15 +6,6 @@ import { FaRegHandshake } from "react-icons/fa6";
 import { PiShippingContainerDuotone } from "react-icons/pi";
 import { useTranslation } from "react-i18next";
 
-import info from '../../assets/img/5.png'
-import img from "../../assets/img/6.png";
-import fabrica from '../../assets/img/2.png'
-import proveedor from "../../assets/img/1.png";
-import negociacion from "../../assets/img/7.png"
-import seguir from '../../assets/img/8.png'
-import calidad from '../../assets/img/3.png'
-
-
 export const RoadMap = () => {
 
     const [t, i18n] = useTranslation("global")

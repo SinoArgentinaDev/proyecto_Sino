@@ -1,9 +1,7 @@
 import React from 'react';
 import {useTranslation} from "react-i18next"
 import { Card } from '../Card/Card';
-import servicio1 from '../../assets/img/card1.png';
-import servicio2 from '../../assets/img/card2.png';
-import servicio3 from '../../assets/img/card3.png';
+
 
 
 export const Servicios = () => {
