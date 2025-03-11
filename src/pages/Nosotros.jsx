@@ -14,6 +14,7 @@ import vision from '../assets/img/vision2.jpg';
 import { HorizontalCard } from '../components/HorizontalCard/HorizontalCard';
 import { InvertCard } from '../components/HorizontalCard/InvertCard';
 import { WhyUs } from '../components/WhyUs/WhyUs';
+import { Presentation } from '../components/Presentation/Presentation';
 
 
 export const Nosotros = () => {
@@ -55,7 +56,8 @@ export const Nosotros = () => {
         paragraph2={t("about_card.text_2")}
         paragraph3={t("about_card.text_3")}
       />
-     
+
+      <Presentation />
       <WhyUs />
       <Contacto />
       <Footer />
