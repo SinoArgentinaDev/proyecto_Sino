@@ -18,21 +18,23 @@ import { Presentation } from '../components/Presentation/Presentation';
 
 
 export const Nosotros = () => {
-  const [t, i18n] = useTranslation("global")
+  const [t] = useTranslation("global");
 
   return (
-    <div>
+    <div className="w-full max-w-[1440px] mx-auto">
       <Header />
       <Title title={t("banner_aboutUs.title")} text={t("banner_aboutUs.route")} />
       <Titulo title={t("page_About.title")} title2={t("page_About.title_2")} />
-      {/* SocialIcon fijado en la pantalla */}
-      <div className="fixed bottom-4 right-4 z-50">
+
+      {/* Botón flotante de WhatsApp responsivo */}
+      <div className="fixed bottom-4 right-4 z-50 md:bottom-6 md:right-6">
         <SocialIcon
           url="https://web.whatsapp.com/"
           href="https://wa.me/541156438774"
           target="_blank"
         />
       </div>
+
       <HorizontalCard
         url={mision}
         title={t("HorizontalCard.title")}
@@ -43,6 +45,7 @@ export const Nosotros = () => {
         title={t("InvertCard.title")}
         texts={t("InvertCard.text", { returnObjects: true })}
       />
+
       <AboutUsTwo
         videoSrc={nosotrosUno}
         title={t("about_card_two.title")}
