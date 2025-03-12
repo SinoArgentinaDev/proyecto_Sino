@@ -10,7 +10,7 @@ export const AboutUsTwo = ({
   return (
     <div className="flex flex-col md:flex-row items-center mt-4 md:items-start gap-8 md:gap-12 p-8 md:p-12 lg:p-14">
       {/* Video Section */}
-      <div className="relative w-full md:w-[44vw] h-[60vh] md:h-[75vh] lg:h-[78vh]">
+      <div className="relative w-full h-[60vh] md:w-[600px] md:h-[590px] lg:h-[78vh]">
         <video
           className="w-full h-full object-cover shadow-lg"
           src={videoSrc}

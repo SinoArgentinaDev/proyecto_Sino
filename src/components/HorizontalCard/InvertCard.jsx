@@ -5,7 +5,7 @@ export const InvertCard = ({ url, title, texts }) => {
     <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-12 p-8 md:p-12 lg:p-16 bg-white dark:bg-gray-800 ">
       {/* Image Section */}
       <div
-        className="relative w-full md:w-[45%] h-[35vh] md:h-[48vh] lg:h-[60vh]"
+        className="relative w-full md:w-[45%] h-[35vh] md:h-[50vh] lg:h-[60vh]"
         style={{
           clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)',
         }}

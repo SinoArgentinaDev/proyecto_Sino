@@ -15,7 +15,7 @@ export const Sidebar = () => {
   ];
 
   return (
-    <div className="bg-blue-950 w-[90px] h-[280px] rounded-lg flex flex-col items-end gap-y-8 py-6 pr-4">
+    <div className="bg-blue-950 w-[60px] h-[280px] rounded-lg flex flex-col items-end gap-y-8 py-6 pr-4">
       {socialUrls.map((url, index) => (
         <SocialIcon key={index} url={url} {...iconStyle} />
       ))}

@@ -11,13 +11,15 @@ import { ServiceHome } from "../components/ServicesHome/ServiceHome";
 
 export const Home = () => {
   return (
-    <div>
+    <div className="w-full max-w-[1440px] mx-auto">
       <Header />
-      <div className="fixed bottom-4 right-4 z-50">
+      {/* Botón flotante de WhatsApp con ajustes responsivos */}
+      <div className="fixed bottom-4 right-4 z-50 md:bottom-6 md:right-6">
         <SocialIcon
           url="https://web.whatsapp.com/"
           href="https://wa.me/541156438774"
           target="_blank"
+          className="w-12 h-12 md:w-14 md:h-14"
         />
       </div>
       <Portada />
@@ -30,3 +32,4 @@ export const Home = () => {
     </div>
   );
 };
+
