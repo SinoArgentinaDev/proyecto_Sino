@@ -60,7 +60,7 @@ export const Nosotros = () => {
         paragraph3={t("about_card.text_3")}
       />
 
-      <Presentation />
+      {/*<Presentation />*/}
       <WhyUs />
       <Contacto />
       <Footer />

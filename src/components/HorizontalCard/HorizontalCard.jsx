@@ -9,7 +9,7 @@ export const HorizontalCard = ({ url, title, texts }) => {
           {title}
         </h1>
 
-        <div className="space-y-3 md:space-y-4 text-justify leading-relaxed text-lg md:text-2xl lg:text-3xl lg:my-14 md:my-10 ">
+        <div className="space-y-3 md:space-y-4 text-justify leading-relaxed text-lg md:text-xl lg:text-3xl lg:my-14 md:my-10 ">
           {texts.map((text, index) => (
             <p key={index}>{text}</p>
           ))}
