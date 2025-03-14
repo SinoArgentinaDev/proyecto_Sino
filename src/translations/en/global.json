@@ -83,6 +83,18 @@
       "Looking at the different companies as cooperators to strengthen and add value to the production chain, achieving greater efficiency in quality and value through our outstanding comprehensive commercial service and deep cultural understanding of both nations. Achieving beneficial and long-term relationships with our clients."
     ]
   },
+  "presentation":{
+    "title": "INTRODUCING OUR TEAM",
+    "title_1":"Marcos Puelles Lanús",
+    "subtitle_1":"Founding Partner | General Manager",
+    "description_1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum eros sit amet nibh ornare tempus. In ut mauris scelerisque, sodales leo vehicula.",
+    "title_2":"Quinto Scuticchio",
+    "subtitle_2":"Founding Partner | Business Consultant",
+    "description_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum eros sit amet nibh ornare tempus. In ut mauris scelerisque, sodales leo vehicula.",
+    "title_3":"Fernando Lorenzo",
+    "subtitle_3":"Founding Partner | Sales Department",
+    "description_3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum eros sit amet nibh ornare tempus. In ut mauris scelerisque, sodales leo vehicula."
+  },
   "whyUs":{
     "title": "WHY US",
     "text_card_1":"At Sino Argentina Group, we have strategically located offices in Guangzhou, China, and Buenos Aires, Argentina. This duality allows us to provide a comprehensive service that covers every detail of import and export procedures, ensuring a fluid and effective connection between both markets.",
@@ -139,7 +151,8 @@
     "section_title": "Explore",
     "section_links": ["Home", "About us", "Services", "Contact"],
     "section_title2": "Visit us",
-    "section_links2": ["San Martin 523", "Ciudad de Buenos Aires", "Argentina"],
+    "section_links2": ["San Martin 523", "Ciudad de Buenos Aires", "Argentina", "Oficina 1-7, Edificio 2", "Regal Villa, calle shiguang N°232", "municipio de Panyu, Guangzhou","provincia de Guangdong", "China"],
+    "section_links2.2": ["Oficina 1-7, Edificio 2", "Regal Villa, calle Shiguang N°232", "Municipio de Panyu, Guangzhou","Provincia de Guangdong", "China"],
     "section_title3": "Commercial",
     "section_links3": ["florenzo@sino-argentina.com", "1156438774"],
     "copyright": "2025 Sino Argentino Group. All rights reserved."
