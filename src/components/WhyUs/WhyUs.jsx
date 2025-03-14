@@ -4,6 +4,14 @@ import { FaUserTie, FaSearchDollar } from "react-icons/fa";
 import { CardWhy } from './CardWhy';
 import { useTranslation } from "react-i18next";
 
+import presentacion from "../../assets/videos/presentacion.mp4"
+import conversation from "../../assets/videos/conversacion.mp4"
+import location from "../../assets/videos/location.mp4"
+import global from "../../assets/videos/negocio.mp4"
+
+
+
+
 export const WhyUs = () => {
 
   const [t, i18n] = useTranslation("global")
@@ -14,10 +22,10 @@ export const WhyUs = () => {
         {t("whyUs.title")}
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-10 px-8 max-w-8xl mx-auto">
-        <CardWhy icon={<IoMdGlobe/>} text={t("whyUs.text_card_1")} />
-        <CardWhy icon={<IoLanguageOutline/>} text={t("whyUs.text_card_2")} />
-        <CardWhy icon={<FaUserTie />} text={t("whyUs.text_card_3")}  />
-        <CardWhy icon={<FaSearchDollar />} text={t("whyUs.text_card_4")} />
+        <CardWhy icon={location} text={t("whyUs.text_card_1")} />
+        <CardWhy icon={conversation} text={t("whyUs.text_card_2")} />
+        <CardWhy icon={presentacion} text={t("whyUs.text_card_3")}  />
+        <CardWhy icon={global} text={t("whyUs.text_card_4")} />
       </div>
     </div>
   );
