@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const Contacto = () => {
   const [formData, setFormData] = useState({
@@ -35,7 +37,7 @@ export const Contacto = () => {
       const result = await response.json();
 
       if (response.ok) {
-        alert("Correo enviado exitosamente");
+        toast.success("Correo enviado exitosamente");
         setFormData({
           fullName: "",
           companyName: "",
@@ -45,11 +47,11 @@ export const Contacto = () => {
           message: "",
         });
       } else {
-        alert("Error al enviar el correo: " + result.message);
+        toast.error("Error al enviar el correo: " + result.message);
       }
     } catch (error) {
       console.error(error);
-      alert("Hubo un problema al enviar el correo");
+      toast.error("Hubo un problema al enviar el correo");
     }
   };
 
@@ -57,6 +59,7 @@ export const Contacto = () => {
 
   return (
     <div id="contacto">
+      <ToastContainer position="top-right" autoClose={5000} />
       <h2 className="text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-10 mb-6 ">
         {t("contact.title")}
       </h2>
