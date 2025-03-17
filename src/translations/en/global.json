@@ -128,23 +128,56 @@
     "card_text_4": "We organize business trips tailored to your needs, facilitating the scheduling of meetings with suppliers, clients and potential business partners. Our team will accompany you throughout your stay, providing assistance with translation, logistics and visa management."
   },
   "RoadMap":{
-    "title":"STEP BY STEP IN ANALYSIS, NEGOTIATION AND PURCHASES WITH SUPPLIERS IN CHINA"
+    "title":"PASO A PASO EN EL ANÁLISIS, NEGOCIACIÓN Y COMPRAS CON PROVEEDORES EN CHINA",
+    "title_2":"PASO A PASO EN LA LOGÍSTICA INTERNACIONAL",
+    "title_3":"PASO A PASO EN LA APERTURA DE MERCADOS EN CHINA",
+    "title_4":"PASO A PASO EN LOS VIAJES DE NEGOCIOS A CHINA"
   },
-  "mapCard":{
-    "title_1":"1. Information gathering:",
-    "text_1":"A meeting is held where the client provides details about the product to be sought (technical specifications, quantity, quality, etc.). Certification and compliance requirements are then defined. Finally, an estimated budget is established.",
-    "title_2":"2. Search and selection of suppliers:",
-    "text_2":"A thorough search is conducted in specialized databases and e-commerce platforms. Multiple suppliers are contacted and evaluated based on their reputation, production capacity and prices. Detailed product information, samples and catalogues are requested.",
-    "title_3":"3. Visit to factories:",
-    "text_3":"If necessary, factory visits are organized to verify production conditions and product quality.",
-    "title_4":"4. Negotiation of commercial terms:",
-    "text_4":"Prices, delivery times, payment terms, warranties and contract terms are negotiated. The contract is drafted and reviewed jointly with the client.",
-    "title_5":"5. Production monitoring:",
-    "text_5":"The production process is constantly monitored, ensuring that quality standards and agreed deadlines are met.",
-    "title_6":"6. Quality inspection:",
-    "text_6":"An independent inspection company is hired to verify the quality of the products before shipment.",
-    "title_7":"7. Shipping organization:",
-    "text_7":"The shipping details are coordinated, including packaging, transport and customs clearance at origin. Then, the international shipment is carried out, with all international logistics being tracked."
+  "ANCPC":{
+    "title_1":"1. Recopilación de información:",
+    "text_1":"Se realiza una reunión en donde el cliente proporciona detalles sobre el producto a buscar (especificaciones técnicas, cantidad, calidad, etc.). Luego se definen los requisitos de certificación y cumplimiento normativo. Finalmente, se establece un presupuesto estimado.",
+    "title_2":"2. Búsqueda y selección de proveedores:",
+    "text_2":"Se realiza una búsqueda exhaustiva en bases de datos especializadas y plataformas de comercio electrónico. Se contactan y evalúan múltiples proveedores en función de su reputación, capacidad de producción y precios. Se solicita información detallada sobre los productos, muestras y catálogos.",
+    "title_3":"3. Visita a fábricas:",
+    "text_3":"Si es necesario, se organizan visitas a las fábricas para verificar las condiciones de producción y la calidad de los productos.",
+    "title_4":"4. Negociación de términos comerciales:",
+    "text_4":"Se negocian los precios, los plazos de entrega, las condiciones de pago, las garantías y los términos del contrato. Se redacta y revisa el contrato en conjunto con el cliente.",
+    "title_5":"5. Seguimiento de la producción:",
+    "text_5":"Se realiza un seguimiento constante del proceso de producción, asegurando que se cumplan los estándares de calidad y los plazos acordados.",
+    "title_6":"6. Inspección de calidad:",
+    "text_6":"Se contrata a una empresa de inspección independiente para verificar la calidad de los productos antes del envío.",
+    "title_7":"7. Organización del envío:",
+    "text_7":"Se coordinan los detalles del envío, incluyendo el embalaje, el transporte y el despacho aduanero en origen. Luego, se efectúa el envío internacional efectuando el seguimiento de toda la Logística Internacional."
+  },
+  "LI":{
+    "title_1":"1. Recepción de la mercancía:",
+    "text_1":"Se coordinan los detalles de la recepción de la mercancía en la fábrica del proveedor.",
+    "title_2":"2. Consolidación de carga",
+    "text_2":"Si es necesario, se consolida la carga de varios proveedores en un solo contenedor.",
+    "title_3":"3. Despacho aduanero en origen:",
+    "text_3":"Se gestiona el despacho aduanero en China, incluyendo la preparación de la documentación necesaria y el pago de los impuestos correspondientes.",
+    "title_4":"4. Transporte marítimo o aéreo:",
+    "text_4":"Se selecciona la modalidad de transporte más adecuada en función de los plazos y el presupuesto.",
+    "title_5":"5. Seguimiento del envío:",
+    "text_5":"Se realiza un seguimiento constante del envío a través de plataformas de seguimiento online.",
+    "title_6":"6. Despacho aduanero en destino:",
+    "text_6":"Se gestiona el despacho aduanero en Argentina, incluyendo la presentación de la documentación necesaria y el pago de los impuestos correspondientes.",
+    "title_7":"7. Entrega de la mercancía:",
+    "text_7":"Se coordina la entrega de la mercancía en el destino final, ya sea en el almacén del cliente o en cualquier otro lugar indicado."
+  },
+  "OpenMarket":{
+    "title_1":"1. Análisis de mercado:",
+    "text_1":"Se realiza un estudio detallado del mercado chino para identificar las oportunidades de negocio y los principales competidores. Posteriormente se definen los canales de distribución más adecuados.",
+    "title_2":"2. Búsqueda de distribuidores o representantes:",
+    "text_2":"Se identifican y contactan potenciales distribuidores o representantes en China y se evalúan sus capacidades y redes de contactos. ",
+    "title_3":"3. Desarrollo de la estrategia comercial:",
+    "text_3":"Se elabora un plan de marketing y ventas adaptado al mercado chino también, se definen los objetivos comerciales a corto y largo plazo.",
+    "title_4":"4. Participación en ferias comerciales (opcional):",
+    "text_4":"Se organiza la participación en ferias comerciales relevantes para dar a conocer los productos y establecer contactos.",
+    "title_5":"5. Promoción y marketing:",
+    "text_5":"Se desarrollan materiales de marketing en chino y se implementan campañas publicitarias en los canales adecuados.",
+    "title_6":"6. Gestión de ventas: ",
+    "text_6":"Se gestionan las ventas y se brinda soporte a los clientes chinos."
   },
   "footer": {
     "title": "Offices in Argentina and China",

@@ -9,8 +9,6 @@ import { AboutUsTwo } from "../components/AboutUsTwo/AboutUsTwo";
 import { Contacto } from "../components/Contacto/Contacto";
 import servicios from "../assets/videos/servi.mp4";
 import { AllServices } from "../components/AllServices/AllServices";
-import { RoadMap } from "../components/RoadMap/RoadMap";
-import { RoadMapContainer } from "../components/RoadMap/RoadMapContainer";
 
 export const Servicios = () => {
   const [t, i18n] = useTranslation("global");
