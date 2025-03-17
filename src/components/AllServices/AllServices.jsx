@@ -22,6 +22,7 @@ export const AllServices = () => {
   };
 
   return (
+  
     <div className="px-4 sm:px-8 lg:px-16 py-8 bg-[rgba(166,166,166,0.35)]">
       {/* Título */}
       <h2 className="text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-10 mb-12">

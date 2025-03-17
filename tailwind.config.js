@@ -8,7 +8,7 @@ export default {
     extend: {},
     screens: {
       sm: "700px",
-      md: "1080px", // md ahora empieza en 1080px
+      md: "1000px", // md ahora empieza en 1080px
       lg: "1920px", // lg ahora empieza en 1920px
     },
     fontFamily:{

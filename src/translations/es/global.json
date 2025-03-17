@@ -85,6 +85,18 @@
       "Mirando las distintas empresas como cooperadores para fortalecer y agregar valor a la cadena productiva logrando mayor eficiencia en calidad y valor a través de nuestro destacado servicio integral comercial y entendimiento profundo cultural de ambas naciones. Logrando relaciones beneficiosas y a largo plazo con nuestros clientes."
     ]
   },
+  "presentation":{
+    "title":"PRESENTANDO A NUESTRO EQUIPO",
+    "title_1":"Marcos Puelles Lanús",
+    "subtitle_1":"Socio fundador | Gerente general",
+    "description_1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum eros sit amet nibh ornare tempus. In ut mauris scelerisque, sodales leo vehicula.",
+    "title_2":"Quinto Scuticchio",
+    "subtitle_2":"Socio fundador | Consultor de negocios",
+    "description_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum eros sit amet nibh ornare tempus. In ut mauris scelerisque, sodales leo vehicula.",
+    "title_3":"Fernando Lorenzo",
+    "subtitle_3":"Socio fundador | Dpto. Comercial",
+    "description_3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum eros sit amet nibh ornare tempus. In ut mauris scelerisque, sodales leo vehicula."
+  },
   "whyUs": {
     "title": "POR QUÉ ELEGIRNOS",
     "text_card_1": "En Sino Argentina Group, contamos con oficinas estratégicamente ubicadas en Guangzhou, China, y Buenos Aires, Argentina. Esta dualidad nos permite brindar un servicio integral que comprende cada detalle de las gestiones de importación y exportación, asegurando una conexión fluida y efectiva entre ambos mercados.",
@@ -143,7 +155,7 @@
     "section_title2": "Visítanos",
     "section_links2": ["San Martin 523", "Ciudad de Buenos Aires", "Argentina", "Oficina 1-7, Edificio 2", "Regal Villa, calle shiguang N°232", "municipio de Panyu, Guangzhou","provincia de Guangdong", "China"],
     "section_links2.2": ["Oficina 1-7, Edificio 2", "Regal Villa, calle Shiguang N°232", "Municipio de Panyu, Guangzhou","Provincia de Guangdong", "China"],
-    "section_title3": "Legal",
+    "section_title3": "Comercial",
     "section_links3": ["florenzo@sino-argentina.com", "1156438774"],
     "copyright": "2025 Sino Argentino Group. Todos los derechos reservados."
   }

@@ -6,7 +6,7 @@ export const AboutUs = ({ videoSrc, showButton = false }) => {
 
   return (
     <div className="flex flex-col md:flex-row items-center md:items-start gap-10 p-8 lg:p-14">
-      <div className="relative w-full md:w-[44vw] h-[60vh] md:h-[75vh] lg:h-[80vh]">
+      <div className="relative w-full h-[60vh] md:w-[600px] md:h-[590px] lg:h-[80vh]">
         <video
           className="w-full h-full object-cover shadow-lg ml-0 md:ml-4"
           src={videoSrc}
@@ -33,7 +33,7 @@ export const AboutUs = ({ videoSrc, showButton = false }) => {
         {showButton && (
 
           <a href="/nosotros">
-            <button className="self-center md:self-start w-3/4 md:w-2/5 bg-[#051d40] text-white font-medium px-6 py-2 rounded-md border-2 border-blue-600 hover:bg-blue-600 transition mt-8">
+            <button className="self-center md:self-start w-3/4 md:w-2/5 bg-[#051d40] text-white font-medium px-6 py-2 rounded-md border-2 border-blue-600 hover:bg-blue-600 transition mt-6">
               {t("aboutUs.button_text")}</button></a>
         )}
       </div>
