@@ -9,7 +9,6 @@ import { AboutUsTwo } from "../components/AboutUsTwo/AboutUsTwo";
 import { Contacto } from "../components/Contacto/Contacto";
 import servicios from "../assets/videos/servi.mp4";
 import { AllServices } from "../components/AllServices/AllServices";
-import { RoadMap } from "../components/RoadMap/RoadMap";
 
 export const Servicios = () => {
   const [t, i18n] = useTranslation("global");
@@ -41,7 +40,6 @@ export const Servicios = () => {
         paragraph3={t("services_cardTwo.text_3")}
       />
       <AllServices />
-      <RoadMap />
       <Contacto />
       <Footer />
     </div>
