@@ -17,19 +17,19 @@ export const Presentation = () => {
 
       <FaAsterisk className=" hidden md:block  absolute left-0 top-1/2 transform -translate-y-1/2 text-[#051d40] text-4xl mx-6" />
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ml-16">
         <CardPresentation
           img={marcos}
           title={t("presentation.title_1")}
           subtitle={t("presentation.subtitle_1")}
           description={t("presentation.description_1")}
         />
-        <CardPresentation
+        {/*<CardPresentation
           img={quinto}
           title={t("presentation.title_2")}
           subtitle={t("presentation.subtitle_2")}
           description={t("presentation.description_2")}
-        />
+        />*/}
         <CardPresentation
           img={lorenzo}
           title={t("presentation.title_3")}
