@@ -17,7 +17,7 @@ export const Presentation = () => {
 
       <FaAsterisk className=" hidden md:block  absolute left-0 top-1/2 transform -translate-y-1/2 text-[#051d40] text-4xl mx-6" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ml-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 md:ml-16">
         <CardPresentation
           img={marcos}
           title={t("presentation.title_1")}
