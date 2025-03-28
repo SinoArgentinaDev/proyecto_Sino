@@ -2,7 +2,7 @@ import React from 'react';
 
 export const HorizontalCard = ({ url, title, texts }) => {
   return (
-    <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-12 p-8 md:p-12 lg:p-16 bg-white dark:bg-gray-800 mt-5">
+    <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-12 p-8 md:p-12 lg:p-16 bg-white mt-5">
       {/* Text Section */}
       <div className="flex flex-col justify-center w-full md:w-1/2 space-y-6 md:space-y-6 text-gray-800 lg:my-14">
         <h1 className="text-3xl md:text-3xl lg:text-4xl font-extrabold text-center md:text-center tracking-widest text-[#051d40] lg:my-14 md:my-10 ">
