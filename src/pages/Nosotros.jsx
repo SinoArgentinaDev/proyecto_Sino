@@ -15,55 +15,86 @@ import { HorizontalCard } from '../components/HorizontalCard/HorizontalCard';
 import { InvertCard } from '../components/HorizontalCard/InvertCard';
 import { WhyUs } from '../components/WhyUs/WhyUs';
 import { Presentation } from '../components/Presentation/Presentation';
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Nosotros = () => {
   const [t] = useTranslation("global");
 
+  useEffect(() => {
+    AOS.init({
+      duration: 900,
+      once: true,
+      easing: 'ease-in-out',
+    });
+  }, []);
+
   return (
     <div className="w-full max-w-full md:max-w-[1440px] mx-auto">
-      <Header />
-      <Title title={t("banner_aboutUs.title")} text={t("banner_aboutUs.route")} />
-      <Titulo title={t("page_About.title")} title2={t("page_About.title_2")} />
-
+      <div data-aos="fade-down" data-aos-delay="100"><Header /></div>
+      <div data-aos="fade-right" data-aos-delay="100"><Title title={t("banner_aboutUs.title")} text={t("banner_aboutUs.route")} /></div>
+      <div data-aos="fade-left" data-aos-delay="100"><Titulo title={t("page_About.title")} title2={t("page_About.title_2")} /></div>
       {/* Botón flotante de WhatsApp responsivo */}
-      <div className="fixed bottom-4 right-4 z-50 md:bottom-6 md:right-6">
+      <div className="fixed bottom-4 right-4 z-50 md:bottom-6 md:right-6" data-aos="zoom-in" data-aos-delay="400">
         <SocialIcon
           url="https://web.whatsapp.com/"
           href="https://wa.me/541156438774"
           target="_blank"
         />
       </div>
-
-      <HorizontalCard
-        url={mision}
-        title={t("HorizontalCard.title")}
-        texts={t("HorizontalCard.text", { returnObjects: true })}
-      />
-      <InvertCard
-        url={vision}
-        title={t("InvertCard.title")}
-        texts={t("InvertCard.text", { returnObjects: true })}
-      />
-
-      <AboutUsTwo
-        videoSrc={nosotrosUno}
-        title={t("about_card_two.title")}
-        paragraph1={t("about_card_two.text_1")}
-        paragraph2={t("about_card_two.text_2")}
-        paragraph3={t("about_card_two.text_3")}
-      />
-      <About
-        videoSrc={nosotros}
-        paragraph1={t("about_card.text_1")}
-        paragraph2={t("about_card.text_2")}
-        paragraph3={t("about_card.text_3")}
-      />
-
-      <Presentation />
-      <WhyUs />
-      <Contacto />
-      <Footer />
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HorizontalCard
+          url={mision}
+          title={t("HorizontalCard.title")}
+          texts={t("HorizontalCard.text", { returnObjects: true })}
+        />
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <InvertCard
+          url={vision}
+          title={t("InvertCard.title")}
+          texts={t("InvertCard.text", { returnObjects: true })}
+        />
+      </div>
+      <div data-aos="fade-right" data-aos-delay="100">
+        <AboutUsTwo
+          videoSrc={nosotrosUno}
+          title={t("about_card_two.title")}
+          paragraph1={t("about_card_two.text_1")}
+          paragraph2={t("about_card_two.text_2")}
+          paragraph3={t("about_card_two.text_3")}
+        />
+      </div>
+      <div data-aos="fade-left" data-aos-delay="100">
+        <About
+          videoSrc={nosotros}
+          paragraph1={t("about_card.text_1")}
+          paragraph2={t("about_card.text_2")}
+          paragraph3={t("about_card.text_3")}
+        />
+      </div>
+      <div data-aos="zoom-in-up" data-aos-delay="100"><Presentation /></div>
+      <div data-aos="fade-up" data-aos-delay="100"><WhyUs /></div>
+      <div data-aos="fade-up" data-aos-delay="100"><Contacto /></div>
+      <div data-aos="fade-up" data-aos-delay="100"><Footer /></div>
     </div>
   );
 };
+
+// Animación fadeIn para Tailwind (si no existe, agregar en tailwind.config.js):
+// module.exports = {
+//   theme: {
+//     extend: {
+//       keyframes: {
+//         fadeIn: {
+//           '0%': { opacity: 0 },
+//           '100%': { opacity: 1 },
+//         },
+//       },
+//       animation: {
+//         fadeIn: 'fadeIn 1s ease-in-out forwards',
+//       },
+//     },
+//   },
+// }
