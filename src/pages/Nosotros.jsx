@@ -21,7 +21,7 @@ export const Nosotros = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div className="w-full max-w-[1440px] mx-auto">
+    <div className="w-full max-w-full md:max-w-[1440px] mx-auto">
       <Header />
       <Title title={t("banner_aboutUs.title")} text={t("banner_aboutUs.route")} />
       <Titulo title={t("page_About.title")} title2={t("page_About.title_2")} />

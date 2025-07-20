@@ -14,7 +14,7 @@ export const Servicios = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <div className="w-full max-w-[1440px] mx-auto">
+    <div className="w-full max-w-full xl:max-w-[1440px] mx-auto">
       <Header />
       <Title
         title={t("banner_service.title")}

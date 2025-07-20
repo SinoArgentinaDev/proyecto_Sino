@@ -11,7 +11,7 @@ import { ServiceHome } from "../components/ServicesHome/ServiceHome";
 
 export const Home = () => {
   return (
-    <div className="w-full max-w-[1440px] mx-auto">
+    <div className="w-full max-w-full xl:max-w-[1440px] mx-auto">
       <Header />
       {/* Botón flotante de WhatsApp con ajustes responsivos */}
       <div className="fixed bottom-4 right-4 z-50 md:bottom-6 md:right-6">
