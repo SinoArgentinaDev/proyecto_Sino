@@ -1,15 +1,24 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-export const AboutUs = ({ videoSrc, showButton = false }) => {
+export const AboutUs = ({ videoSrcDesktop, videoSrcMobile, showButton = false }) => {
   const [t] = useTranslation("global");
 
   return (
     <div className="flex flex-col md:flex-row items-center md:items-start gap-10 p-8 lg:p-14">
       <div className="relative w-full h-[60vh] md:w-[600px] md:h-[590px] lg:h-[80vh]">
+        {/* Video para desktop/tablet */}
         <video
-          className="w-full h-full object-cover shadow-lg ml-0 md:ml-4"
-          src={videoSrc}
+          className="hidden sm:block w-full h-full object-cover shadow-lg ml-0 md:ml-4"
+          src={videoSrcDesktop}
+          autoPlay
+          loop
+          muted
+        ></video>
+        {/* Video para mobile */}
+        <video
+          className="block sm:hidden w-full h-full object-cover shadow-lg ml-0"
+          src={videoSrcMobile}
           autoPlay
           loop
           muted

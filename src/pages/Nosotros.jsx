@@ -82,19 +82,3 @@ export const Nosotros = () => {
   );
 };
 
-// Animación fadeIn para Tailwind (si no existe, agregar en tailwind.config.js):
-// module.exports = {
-//   theme: {
-//     extend: {
-//       keyframes: {
-//         fadeIn: {
-//           '0%': { opacity: 0 },
-//           '100%': { opacity: 1 },
-//         },
-//       },
-//       animation: {
-//         fadeIn: 'fadeIn 1s ease-in-out forwards',
-//       },
-//     },
-//   },
-// }

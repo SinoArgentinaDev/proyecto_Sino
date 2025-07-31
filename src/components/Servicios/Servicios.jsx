@@ -7,7 +7,7 @@ import { Card } from '../Card/Card';
 export const Servicios = () => {
     const [t, i18n] = useTranslation("global")
     return (
-        <div className="container mx-auto p-6">
+        <div className="container mx-auto p-6" data-aos="fade-up" data-aos-delay="350">
             {/* Encabezado centrado */}
             <h1 className="text-4xl font-extrabold text-center tracking-wider text-[#051d40] mt-6 mb-8">
                {t("services_lading.title")}
