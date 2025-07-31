@@ -36,25 +36,25 @@ export const Home = () => {
           className="w-12 h-12 md:w-14 md:h-14"
         />
       </div>
-      <div data-aos="fade-up" data-aos-delay="300">
+      <div data-aos="fade-up" data-aos-delay="100">
         <Portada />
       </div>
-      <div data-aos="fade-right" data-aos-delay="400">
+      <div data-aos="fade-right" data-aos-delay="100">
         <AboutUs
           videoSrcDesktop={videoUs}
           showButton={true}
           videoSrcMobile={videoCelular}
         />
       </div>
-      <div data-aos="fade-up" data-aos-delay="500">
+      <div data-aos="fade-up" data-aos-delay="100">
         <ServiceHome />
       </div>
       {/*<Banner />*/}
       {/*<Servicios />*/}
-      <div data-aos="fade-up" data-aos-delay="600">
+      <div data-aos="fade-up" data-aos-delay="100">
         <Contacto />
       </div>
-      <div data-aos="fade-up" data-aos-delay="700">
+      <div data-aos="fade-up" data-aos-delay="100">
         <Footer />
       </div>
     </div>
