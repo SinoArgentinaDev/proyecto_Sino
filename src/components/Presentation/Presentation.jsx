@@ -15,7 +15,7 @@ export const Presentation = () => {
       {t("presentation.title")}
       </h1>
 
-      <FaAsterisk className=" hidden md:block  absolute left-0 top-1/2 transform -translate-y-1/2 text-[#051d40] text-4xl mx-6" />
+      <FaAsterisk className="hidden md:block absolute left-2 top-1/2 transform -translate-y-1/2 text-[#051d40] text-4xl" />
 
       <div className="flex flex-col gap-8">
         <CardPresentation
@@ -47,9 +47,8 @@ export const Presentation = () => {
           description4={t("presentation.description_3.3")}
         />
       </div>
-
-      <FaAsterisk className="hidden md:block absolute right-0 top-[30%] text-[#051d40] text-4xl mx-5" />
-      <FaAsterisk className="hidden md:block absolute right-0 bottom-[15%] text-[#051d40] text-4xl mx-6" />
+      <FaAsterisk className="hidden md:block absolute right-2 top-[30%] text-[#051d40] text-4xl" />
+      <FaAsterisk className="hidden md:block absolute right-2 bottom-[15%] text-[#051d40] text-4xl" />
     </section>
   );
 };

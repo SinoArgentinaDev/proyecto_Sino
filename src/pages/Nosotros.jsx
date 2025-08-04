@@ -31,7 +31,7 @@ export const Nosotros = () => {
   }, []);
 
   return (
-    <div className="w-full max-w-full md:max-w-[1440px] mx-auto">
+    <div className="w-full max-w-full xl:max-w-[1440px] mx-auto">
       <div data-aos="fade-down" data-aos-delay="100"><Header /></div>
       <div data-aos="fade-right" data-aos-delay="100"><Title title={t("banner_aboutUs.title")} text={t("banner_aboutUs.route")} /></div>
       <div data-aos="fade-left" data-aos-delay="100"><Titulo title={t("page_About.title")} title2={t("page_About.title_2")} /></div>
