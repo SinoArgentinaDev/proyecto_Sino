@@ -64,7 +64,7 @@ export const Servicios = () => {
       <div data-aos="fade-up" data-aos-delay="100">
         <Contacto />
       </div>
-      <div data-aos="fade-up" data-aos-delay="100">
+      <div data-aos="fade-down" data-aos-delay="100">
         <Footer />
       </div>
     </div>

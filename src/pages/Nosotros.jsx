@@ -77,7 +77,7 @@ export const Nosotros = () => {
       <div data-aos="zoom-in-up" data-aos-delay="100"><Presentation /></div>
       <div data-aos="fade-up" data-aos-delay="100"><WhyUs /></div>
       <div data-aos="fade-up" data-aos-delay="100"><Contacto /></div>
-      <div data-aos="fade-up" data-aos-delay="100"><Footer /></div>
+      <div data-aos="fade-down" data-aos-delay="100"><Footer /></div>
     </div>
   );
 };
