@@ -22,7 +22,7 @@ export const Servicios = () => {
 
   return (
     <div className="w-full max-w-full xl:max-w-[1440px] mx-auto">
-      <div data-aos="fade-down" data-aos-delay="100">
+      <div>
         <Header />
       </div>
       <div data-aos="fade-right" data-aos-delay="100">
