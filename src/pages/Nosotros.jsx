@@ -7,7 +7,7 @@ import { Contacto } from '../components/Contacto/Contacto';
 import nosotrosUno from '../assets/videos/dos.mp4';
 import nosotros from '../assets/videos/ntres.mp4';
 import mision from '../assets/img/homeImg.png';
-import vision from '../assets/img/sino2.jpg';
+import vision from '../assets/img/Sino2.jpg';
 import { HorizontalCard } from '../components/HorizontalCard/HorizontalCard';
 import { InvertCard } from '../components/HorizontalCard/InvertCard';
 import { WhyUs } from '../components/WhyUs/WhyUs';
