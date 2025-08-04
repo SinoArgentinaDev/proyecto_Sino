@@ -12,7 +12,7 @@ import { HorizontalCard } from '../components/HorizontalCard/HorizontalCard';
 import { InvertCard } from '../components/HorizontalCard/InvertCard';
 import { WhyUs } from '../components/WhyUs/WhyUs';
 import { Presentation } from '../components/Presentation/Presentation';
-import { Layout } from '../components/layout/Layout';
+import { Layout } from '../components/Layout/Layout';
 
 export const Nosotros = () => {
   const [t] = useTranslation("global");
