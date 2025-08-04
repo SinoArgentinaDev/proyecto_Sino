@@ -18,7 +18,7 @@ export const HorizontalCard = ({ url, title, texts }) => {
 
       {/* Image Section */}
       <div
-        className="relative w-full h-[35vh] md:w-[550px] md:h-[320px] lg:h-[60vh]"
+        className="relative w-full max-w-full md:w-[550px] md:h-[320px] lg:h-[60vh] overflow-hidden"
         style={{
           clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)',
         }}

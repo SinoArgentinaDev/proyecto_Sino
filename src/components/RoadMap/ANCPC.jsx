@@ -6,7 +6,7 @@ import { FaRegHandshake } from "react-icons/fa6";
 import { PiShippingContainerDuotone } from "react-icons/pi";
 import { useTranslation } from "react-i18next";
 
-export const RoadMap = () => {
+export const ANCPC = () => {
 
     const [t, i18n] = useTranslation("global")
 
@@ -21,8 +21,8 @@ export const RoadMap = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 lg:px-16">
                 {/* Tarjeta 1 */}
                 <MapCard
-                    titulo={t("mapCard.title_1")}
-                    text={t("mapCard.text_1")}
+                    titulo={t("ANCPC.title_1")}
+                    text={t("ANCPC.text_1")}
                     Icon={<TiInfo />}
                     //url={info}
                     bgColor="bg-[#051d40]"
@@ -30,8 +30,8 @@ export const RoadMap = () => {
 
                 {/* Tarjeta 2 */}
                 <MapCard
-                    titulo={t("mapCard.title_2")}
-                    text={t("mapCard.text_2")}
+                    titulo={t("ANCPC.title_2")}
+                    text={t("ANCPC.text_2")}
                     Icon={<LuUserSearch />}
                     //url={proveedor}
                     bgColor="bg-[#002f66]"
@@ -39,8 +39,8 @@ export const RoadMap = () => {
 
                 {/* Tarjeta 3 */}
                 <MapCard
-                    titulo={t("mapCard.title_3")}
-                    text={t("mapCard.text_3")}
+                    titulo={t("ANCPC.title_3")}
+                    text={t("ANCPC.text_3")}
                     Icon={<MdOutlineFactory />}
                     //url={fabrica}
                     bgColor="bg-[#0c4793]"
@@ -48,8 +48,8 @@ export const RoadMap = () => {
 
                 {/* Tarjeta 4 */}
                 <MapCard
-                    titulo={t("mapCard.title_4")}
-                    text={t("mapCard.text_4")}
+                    titulo={t("ANCPC.title_4")}
+                    text={t("ANCPC.text_4")}
                     Icon={<FaRegHandshake />}
                     //url={negociacion}
                     bgColor="bg-[#3181b7]"
@@ -57,8 +57,8 @@ export const RoadMap = () => {
 
                 {/* Tarjeta 5 */}
                 <MapCard
-                    titulo={t("mapCard.title_5")}
-                    text={t("mapCard.text_5")}
+                    titulo={t("ANCPC.title_5")}
+                    text={t("ANCPC.text_5")}
                     Icon={<LuSearchCheck />}
                     //url={seguir}
                     bgColor="bg-[#7b98b3]"
@@ -66,8 +66,8 @@ export const RoadMap = () => {
 
                 {/* Tarjeta 6 */}
                 <MapCard
-                    titulo={t("mapCard.title_6")}
-                    text={t("mapCard.text_6")}
+                    titulo={t("ANCPC.title_6")}
+                    text={t("ANCPC.text_6")}
                     Icon={<LuPackageSearch />}
                     //url={calidad}
                     bgColor="bg-[#3181b7]"
@@ -75,8 +75,8 @@ export const RoadMap = () => {
 
                 {/* Tarjeta 7 */}
                 <MapCard
-                    titulo={t("mapCard.title_7")}
-                    text={t("mapCard.text_7")}
+                    titulo={t("ANCPC.title_7")}
+                    text={t("ANCPC.text_7")}
                     Icon={<PiShippingContainerDuotone />}
                     //url={img}
                     bgColor="bg-[#0c4793]"
