@@ -26,7 +26,7 @@ export const Contacto = () => {
 
     try {
       const response = await fetch(
-        "https://back-sino-production.up.railway.app/send-email",
+        "https://luminous-dasik-e109b7.netlify.app/",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
