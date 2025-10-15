@@ -1,6 +1,6 @@
 import React from 'react';
 import { Links } from './Links';
-import sino_logo from '../../../assets/img/SIno.png';
+import sino_logo from '../../../assets/img/logoSino.png';
 import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {
@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
         {/* Logo y descripción */}
         <div className="flex flex-col items-center md:items-start">
-          <img src={sino_logo} alt="logo" className="w-28 mb-2" />
+          <img src={sino_logo} alt="logo" className="w-32 mb-2" />
           <p className="text-base text-white font-semibold text-center tracking-wide 
                md:text-left">
             {t("footer.title")}

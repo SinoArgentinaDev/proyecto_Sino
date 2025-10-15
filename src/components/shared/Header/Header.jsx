@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Navbar } from "../../Navbar/Navbar";
-import sino_logo from "../../../assets/img/SIno.png";
+import sino_logo from "../../../assets/img/logow.png";
 import flagUsa from "../../../assets/img/flag-usa.svg";
 import flagSpain from "../../../assets/img/flagspain.svg";
 import useLanguage from "../../../hooks/useLanguage";
@@ -60,7 +60,7 @@ export const Header = () => {
       </div>
        {/* Logo */}
        <img
-          className="w-28 "
+          className="w-28"
           src={sino_logo}
           alt="Logo de la empresa"
         />
