@@ -1,4 +1,3 @@
-import React from 'react';
 import { Links } from './Links';
 import sino_logo from '../../../assets/img/logoSino.png';
 import { useTranslation } from 'react-i18next';
