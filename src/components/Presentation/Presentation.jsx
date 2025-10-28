@@ -21,9 +21,6 @@ export const Presentation = () => {
           title={t("presentation.title_1")}
           subtitle={t("presentation.subtitle_1")}
           description1={t("presentation.description_1")}
-          description2={t("presentation.description_1.1")}
-          description3={t("presentation.description_1.2")}
-          description4={t("presentation.description_1.3")}
 
         />
         <CardPresentation
@@ -31,9 +28,6 @@ export const Presentation = () => {
           title={t("presentation.title_2")}
           subtitle={t("presentation.subtitle_2")}
           description1={t("presentation.description_2")}
-          description2={t("presentation.description_2.1")}
-          description3={t("presentation.description_2.2")}
-          description4={t("presentation.description_2.3")}
         />
       </div>
       <FaAsterisk className="hidden md:block absolute right-2 top-[30%] text-[#051d40] text-4xl" />
