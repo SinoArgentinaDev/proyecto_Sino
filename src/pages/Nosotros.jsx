@@ -7,7 +7,7 @@ import { Contacto } from '../components/Contacto/Contacto';
 import nosotrosUno from '../assets/videos/dos.mp4';
 import nosotros from '../assets/videos/ntres.mp4';
 import mision from '../assets/img/homeImg.png';
-import vision from '../assets/img/Sino2.jpg';
+import vision from '../assets/img/vision.jpg';
 import { HorizontalCard } from '../components/HorizontalCard/HorizontalCard';
 import { InvertCard } from '../components/HorizontalCard/InvertCard';
 import { WhyUs } from '../components/WhyUs/WhyUs';
@@ -47,7 +47,6 @@ export const Nosotros = () => {
       <div data-aos="fade-left" data-aos-delay="100">
         <About
           videoSrc={nosotros}
-          paragraph1={t("about_card.text_1")}
           paragraph2={t("about_card.text_2")}
           paragraph3={t("about_card.text_3")}
         />

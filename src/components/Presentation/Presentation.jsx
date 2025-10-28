@@ -1,10 +1,8 @@
-import React from "react";
 import {useTranslation} from "react-i18next"
 import { FaAsterisk } from "react-icons/fa";
 import { CardPresentation } from "./CardPresentation";
 
 import marcos from "../../assets/img/presetacion_marcos.jpg";
-import lorenzo from "../../assets/img/lorenzo.png";
 import quinto from "../../assets/img/quinto.jpg";
 
 export const Presentation = () => {
@@ -36,15 +34,6 @@ export const Presentation = () => {
           description2={t("presentation.description_2.1")}
           description3={t("presentation.description_2.2")}
           description4={t("presentation.description_2.3")}
-        />
-        <CardPresentation
-          img={lorenzo}
-          title={t("presentation.title_3")}
-          subtitle={t("presentation.subtitle_3")}
-          description1={t("presentation.description_3")}
-          description2={t("presentation.description_3.1")}
-          description3={t("presentation.description_3.2")}
-          description4={t("presentation.description_3.3")}
         />
       </div>
       <FaAsterisk className="hidden md:block absolute right-2 top-[30%] text-[#051d40] text-4xl" />

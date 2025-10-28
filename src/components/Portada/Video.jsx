@@ -2,7 +2,7 @@ import { AiOutlineDoubleRight } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 import { Sidebar } from "../Siderbar/Sidebar";
 import { Link } from "react-router-dom";
-import portadav from "../../assets/img/serviciosImg.png";
+import portadav from "../../assets/img/pportada.png";
 
 export const Video = () => {
   const [t] = useTranslation("global");
